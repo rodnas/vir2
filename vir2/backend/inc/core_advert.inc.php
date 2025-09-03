@@ -1,0 +1,50 @@
+<?php
+if (!DEFINED('runOK')) exit;
+$viewItem[$config["modulSelect"]."_x_textValue"]=0;
+$viewItem[$config["modulSelect"]."_x_description"]=0;
+$viewItem[$config["modulSelect"].'_x_insertWhen']=0;
+$viewItem[$config["modulSelect"].'_x_sourceName']=0;
+$viewItem[$config["modulSelect"].'_x_sizeWidth']=0;
+$viewItem[$config["modulSelect"].'_x_sizeHeight']=0;
+$viewItem[$config["modulSelect"].'_x_insertWhen']=0;
+$viewItem[$config["modulSelect"].'_x_core_advert_advertiserID']=0;
+$viewItem[$config["modulSelect"].'_x_core_advert_campaignID']=0;
+$viewItem[$config["modulSelect"]."_x_core_advert_zoneID"]=0;
+$viewItem[$config["modulSelect"]."_x_core_advert_groupID"]=0;
+$viewItem[$config["modulSelect"]."_x_core_advert_sourceID"]=0;
+$viewItem[$config["modulSelect"]."_x_core_advert_sizeID"]=0;
+$viewItem[$config["modulSelect"]."_x_jumpURL"]=0;
+$viewItem[$config["modulSelect"]."_x_activateWhen"]=0;
+$viewItem[$config["modulSelect"]."_x_deactivateWhen"]=0;
+$viewItem[$config["modulSelect"]."_x_changeTime"]=0;
+$viewItem[$config["modulSelect"]."_x_sizeWidth"]=0;
+$viewItem[$config["modulSelect"]."_x_sizeHeight"]=0;
+$viewItem[$config["modulSelect"]."_x_playMaxNum"]=0;
+$viewItem[$config["modulSelect"]."_x_playCounter"]=0;
+$viewItem[$config["modulSelect"]."_x_clickMaxNum"]=0;
+$viewItem[$config["modulSelect"]."_x_clickCounter"]=0;
+$viewItem[$config["modulSelect"]."_x_priceMax"]=0;
+$viewItem[$config["modulSelect"]."_x_priceActual"]=0;
+if ($_SESSION[$config["configShare"]["whichSystemAndMode"] . "status_UserLevel"]==2)
+	{
+	$viewItem[$config["modulSelect"].'_x_core_advert_advertiserID']=1;
+	$viewItem[$config["modulSelect"].'_x_core_advert_campaignID']=1;
+	$viewItem[$config["modulSelect"]."_x_core_advert_zoneID"]=1;
+	$viewItem[$config["modulSelect"]."_x_core_advert_groupID"]=1;
+	$viewItem[$config["modulSelect"]."_x_core_advert_sourceID"]=1;
+	$viewItem[$config["modulSelect"]."_x_core_advert_sizeID"]=1;
+	$viewItem[$config["modulSelect"]."_x_advert_jumpURL"]=1;
+	$viewItem[$config["modulSelect"]."_x_activateWhen"]=1;
+	$viewItem[$config["modulSelect"]."_x_deactivateWhen"]=1;
+	$viewItem[$config["modulSelect"]."_x_changeTime"]=1;
+	$viewItem[$config["modulSelect"]."_x_sizeWidth"]=1;
+	$viewItem[$config["modulSelect"]."_x_sizeHeight"]=1;
+	$viewItem[$config["modulSelect"]."_x_playMaxNum"]=1;
+	$viewItem[$config["modulSelect"]."_x_playCounter"]=1;
+	$viewItem[$config["modulSelect"]."_x_clickMaxNum"]=1;
+	$viewItem[$config["modulSelect"]."_x_clickCounter"]=1;
+	$viewItem[$config["modulSelect"]."_x_priceMax"]=1;
+	$viewItem[$config["modulSelect"]."_x_priceActual"]=1;
+	}
+$viewItem = viewConfig($config,$viewItem);
+?>

@@ -1,0 +1,269 @@
+##inputForm##
+<div id="contentFrame"{##marginLeft##}>
+	<{##modulSelect##}_x_core_localserverID>
+	<div id="itemTitle" style="width:100px;">
+		<label title="{##@modulSelect::core_localserverIDLabel##}">{##&modulSelect::core_localserverIDTitle##}</label>
+	</div>
+	<div id="itemView">
+		<select style="width:150px;" id="x_core_localserverID" name="x_core_localserverID">{##@modulSelect::x_core_localserverID##}</select>
+	</div>
+	<div style="clear:both;height: 1px;"></div>
+	</{##modulSelect##}_x_core_localserverID>
+	<{##modulSelect##}_x_sealNumber>
+	<div id="itemTitle" style="width:100px;">
+		<label title="{##@modulSelect::sealNumberLabel##}">{##&modulSelect::sealNumberTitle##}</label>
+	</div>
+	<div id="itemView">
+		<input type="text" name="x_sealNumber" id="x_sealNumber" size="62" maxlength="100" value="{##@modulSelect::x_sealNumber##}">
+	</div>
+	<div style="clear:both;height: 1px;"></div>
+	</{##modulSelect##}_x_sealNumber>
+	<div id="itemTitle" style="width:100px;">
+		<label title="{##@modulSelect::nameLabel##}">{##&modulSelect::nameTitle##}</label>
+	</div>
+	<div id="itemView">
+		<input type="text" name="x_name" id="x_name" size="62" maxlength="100" value="{##@modulSelect::x_name##}">
+	</div>
+	<div style="clear:both;height: 1px;"></div>
+	<div id="itemTitle" style="width:100px;">
+		<label title="{##@modulSelect::zipcodeLabel##}">{##&modulSelect::zipcodeTitle##}</label>
+	</div>
+	<div id="itemView">
+		<input type="text" name="x_zipcode" id="x_zipcode" size="4" maxlength="4" value="{##@modulSelect::x_zipcode##}">
+	</div>
+	<div style="clear:both;height: 1px;"></div>
+	<div id="itemTitle" style="width:100px;">
+		<label title="{##@modulSelect::settlementLabel##}">{##&modulSelect::settlementTitle##}</label>
+	</div>
+	<div id="itemView">
+		<input type="text" name="x_settlement" id="x_settlement" size="62" maxlength="100" value="{##@modulSelect::x_settlement##}">
+	</div>
+	<div style="clear:both;height: 1px;"></div>
+	<div id="itemTitle" style="width:100px;">
+		<label title="{##@modulSelect::addressLabel##}">{##&modulSelect::addressTitle##}</label>
+	</div>
+	<div id="itemView">
+		<input type="text" name="x_address" id="x_address" size="62" maxlength="100" value="{##@modulSelect::x_address##}">
+	</div>
+	<div style="clear:both;height: 1px;"></div>
+	<div id="itemTitle" style="width:100px;">
+		<label title="{##@modulSelect::phoneLabel##}">{##&modulSelect::phoneTitle##}</label>
+	</div>
+	<div id="itemView">
+		<input type="text" name="x_phone" id="x_phone" size="62" maxlength="100" value="{##@modulSelect::x_phone##}">
+	</div>
+	<div style="clear:both;height: 1px;"></div>
+	<div id="itemLineTitle">
+		<label title="{##@modulSelect::informationLabel##}">{##&modulSelect::informationTitle##}</label>
+	</div>
+	<div id="itemView">
+		<textarea style="border: 1px solid #999999;" rows="4" cols="80" id="x_information" name="x_information">{##@modulSelect::x_information##}</textarea>
+	</div>
+	<div style="clear:both;height: 1px;"></div>
+	<div id="itemTitle" style="width:100px;">
+		<label title="{##@modulSelect::nurseLabel##}">{##&modulSelect::nurseTitle##}</label>
+	</div>
+	<div id="itemView">
+		<INPUT name="x_nurse" id="x_nurse" TYPE="checkbox" value="1" {##@modulSelect::x_nurse##}>
+	</div>
+	<div style="clear:both;height: 1px;"></div>
+	<{##modulSelect##}_x_licence>
+	<div id="itemTitle" style="width:100px;">
+		<label title="{##@modulSelect::licenceLabel##}">{##&modulSelect::licenceTitle##}</label>
+	</div>
+	<div id="itemView">
+		<input type="text" name="x_licence" id="x_licence" size="10" maxlength="10" value="{##@modulSelect::x_licence##}">
+	</div>
+	<div style="clear:both;height: 1px;"></div>
+	</{##modulSelect##}_x_licence>
+	<div id="itemTitle" style="width:100px;">
+		<label title="{##@modulSelect::patientTimeLabel##}">{##&modulSelect::patientTimeTitle##}</label>
+	</div>
+	<div id="itemView">
+		<input type="text" name="x_patientTime" id="x_patientTime" size="4" maxlength="4" value="{##@modulSelect::x_patientTime##}">&nbsp;{##configShare::minTitle##}
+	</div>
+	<div style="clear:both;height: 1px;"></div>
+	<div id="itemTitle" style="width:100px;">
+		<label title="{##@modulSelect::reserveDayMinLabel##}">{##&modulSelect::reserveDayMinTitle##}</label>
+	</div>
+	<div id="itemView">
+		<input type="text" name="x_reserveDayMin" id="x_reserveDayMin" size="4" maxlength="4" value="{##@modulSelect::x_reserveDayMin##}">&nbsp;{##configShare::dayTitle##}
+	</div>
+	<div style="clear:both;height: 1px;"></div>
+	<div id="itemTitle" style="width:100px;">
+		<label title="{##@modulSelect::reserveDayMaxLabel##}">{##&modulSelect::reserveDayMaxTitle##}</label>
+	</div>
+	<div id="itemView">
+		<input type="text" name="x_reserveDayMax" id="x_reserveDayMax" size="4" maxlength="4" value="{##@modulSelect::x_reserveDayMax##}">&nbsp;{##configShare::dayTitle##}
+	</div>
+	<div style="clear:both;height: 1px;"></div>
+	<{##modulSelect##}_x_bannerMmaximum>
+	<div id="itemTitle" style="width:100px;">
+		<label title="{##@modulSelect::bannerMaximumLabel##}">{##&modulSelect::bannerMaximumTitle##}</label>
+	</div>
+	<div id="itemView">
+		<input type="text" name="x_bannerMaximum" id="x_bannerMaximum" size="2" maxlength="2" value="{##@modulSelect::x_bannerMaximum##}">&nbsp;{##configShare::pieceTitle##}
+	</div>
+	<div style="clear:both;height: 1px;"></div>
+	</{##modulSelect##}_x_bannerMmaximum>
+	<{##modulSelect##}_x_marqueeMmaximum>
+	<div id="itemTitle" style="width:100px;">
+		<label title="{##@modulSelect::marqueeMaximumLabel##}">{##&modulSelect::marqueeMaximumTitle##}</label>
+	</div>
+	<div id="itemView">
+		<input type="text" name="x_marqueeMaximum" id="x_marqueeMaximum" size="2" maxlength="2" value="{##@modulSelect::x_marqueeMaximum##}">&nbsp;{##configShare::pieceTitle##}
+	</div>
+	<div style="clear:both;height: 1px;"></div>
+	</{##modulSelect##}_x_marqueeMmaximum>
+	<div id="itemTitle" style="width:100px;">
+		<label title="{##@modulSelect::alwaysViewLabel##}">{##&modulSelect::alwaysViewTitle##}</label>
+	</div>
+	<div id="itemView">
+		<INPUT name="x_alwaysView" id="x_alwaysView" TYPE="checkbox" value="1" {##@modulSelect::x_alwaysView##}>
+	</div>
+	<div style="clear:both;height: 1px;"></div>
+</div>
+##/inputForm##
+##viewForm##
+<div id="contentFrame"{##marginLeft##}>
+	<{##modulSelect##}_x_core_localserverID>
+	<div id="itemTitle" style="width:100px;">
+		<label title="{##@modulSelect::core_localserverIDLabel##}">{##&modulSelect::core_localserverIDTitle##}</label>
+	</div>
+	<div id="itemView">{##@modulSelect::x_core_localserverID##}</div>
+	<div style="clear:both;height: 1px;"></div>
+	</{##modulSelect##}_x_core_localserverID>
+	<div id="itemTitle" style="width:100px;">
+		<label title="{##@modulSelect::insertWhenTitle##}">{##&modulSelect::sealNumberTitle##}</label>
+	</div>
+	<div id="itemView">{##@modulSelect::x_sealNumber##}
+	</div>
+	<div style="clear:both;height: 1px;"></div>
+	<div id="itemTitle" style="width:100px;">
+		<label title="{##@modulSelect::nameTitle##}">{##&modulSelect::nameTitle##}</label>
+	</div>
+	<div id="itemView">{##@modulSelect::x_name##}</div>
+	<div style="clear:both;height: 1px;"></div>
+	<div id="itemTitle" style="width:100px;">
+		<label title="{##@modulSelect::zipcodeLabel##}">{##&modulSelect::zipcodeTitle##}</label>
+	</div>
+	<div id="itemView">{##@modulSelect::x_zipcode##}"</div>
+	<div style="clear:both;height: 1px;"></div>
+	<div id="itemTitle" style="width:100px;">
+		<label title="{##@modulSelect::settlementLabel##}">{##&modulSelect::settlementTitle##}</label>
+	</div>
+	<div id="itemView">{##@modulSelect::x_settlement##}</div>
+	<div style="clear:both;height: 1px;"></div>
+	<div id="itemTitle" style="width:100px;">
+		<label title="{##@modulSelect::addressLabel##}">{##&modulSelect::addressTitle##}</label>
+	</div>
+	<div id="itemView">{##@modulSelect::x_address##}</div>
+	<div style="clear:both;height: 1px;"></div>
+	<div id="itemTitle" style="width:100px;">
+		<label title="{##@modulSelect::phoneLabel##}">{##&modulSelect::phoneTitle##}</label>
+	</div>
+	<div id="itemView">{##@modulSelect::x_phone##}</div>
+	<div style="clear:both;height: 1px;"></div>
+	<div id="itemLineTitle">
+		<label title="{##@modulSelect::informationTitle##}">{##&modulSelect::informationTitle##}</label>
+	</div>
+	<div id="itemView">
+		<textarea readonly style="border: 1px solid #999999;" rows="4" cols="80" id="x_information" name="x_information">{##@modulSelect::x_information##}</textarea>
+	</div>
+	<div style="clear:both;height: 1px;"></div>
+	<div id="itemTitle" style="width:100px;">
+		<label title="{##@modulSelect::nurseTitle##}">{##&modulSelect::nurseTitle##}</label>
+	</div>
+	<div id="itemView">{##@modulSelect::x_nurse##}</div>
+	<div style="clear:both;height: 1px;"></div>
+	<div id="itemTitle" style="width:100px;">
+		<label title="{##@modulSelect::licenceTitle##}">{##&modulSelect::licenceTitle##}</label>
+	</div>
+	<div id="itemView">{##@modulSelect::x_licence##}</div>
+	<div style="clear:both;height: 1px;"></div>
+	<{##modulSelect##}_x_bannerMmaximum>
+	<div id="itemTitle" style="width:100px;">
+		<label title="{##@modulSelect::bannerMaximumTitle##}">{##&modulSelect::bannerMaximumTitle##}</label>
+	</div>
+	<div id="itemView">{##@modulSelect::x_bannerMaximum##}&nbsp;{##configShare::pieceTitle##}</div>
+	<div style="clear:both;height: 1px;"></div>
+	</{##modulSelect##}_x_bannerMmaximum>
+	<{##modulSelect##}_x_marqueeMmaximum>
+	<div id="itemTitle" style="width:100px;">
+		<label title="{##@modulSelect::marqueeMaximumTitle##}">{##&modulSelect::marqueeMaximumTitle##}</label>
+	</div>
+	<div id="itemView">{##@modulSelect::x_marqueeMaximum##}&nbsp;{##configShare::pieceTitle##}</div>
+	<div style="clear:both;height: 1px;"></div>
+	</{##modulSelect##}_x_marqueeMmaximum>
+	<div id="itemTitle" style="width:100px;">
+		<label title="{##@modulSelect::alwaysViewTitle##}">{##&modulSelect::alwaysViewTitle##}</label>
+	</div>
+	<div id="itemView">{##@modulSelect::x_alwaysView##}</div>
+	<div style="clear:both;height: 1px;"></div>
+</div>
+##/viewForm##
+##listHeadForm##
+<div id="listHeader">
+	<{##modulSelect##}_x_core_localserverID>
+	<div id="itemView" style="width:90px;">{##@modulSelect::core_localserverIDTitle##}</div>
+	</{##modulSelect##}_x_core_localserverID>
+	<div style="clear:both;"></div>
+	<div id="itemView" style="width:90px;">{##@modulSelect::sealNumberTitle##}</div>
+	<div id="itemView" style="width:100px;">{##@modulSelect::nameTitle##}</div>
+	<div id="itemView" style="width:80px;">{##@modulSelect::licenceTitle##}</div>
+	<{##modulSelect##}_x_bannerMmaximum>
+	<div id="itemView" style="width:70px;">{##@modulSelect::bannerMaximumTitle##}</div>
+	</{##modulSelect##}_x_bannerMmaximum>
+	<{##modulSelect##}_x_marqueeMmaximum>
+	<div id="itemView" style="width:80px;">{##@modulSelect::marqueeMaximumTitle##}</div>
+	</{##modulSelect##}_x_marqueeMmaximum>
+	<{##modulSelect##}_x_insertWhen>
+	<div style="clear:both;"></div>
+	<div id="itemView" style="width:120px;">{##@modulSelect::insertWhenTitle##}</div>
+	</{##modulSelect##}_x_insertWhen>
+	<div style="clear:both;"></div>
+</div>
+##/listHeadForm##
+##listItemForm##
+<div id="listItem" class="{##@modulSelect::bgcolor##}">
+	<div style="float:left;">
+		<{##modulSelect##}_x_core_localserverID>
+		<div id="itemView" style="width:90px;">{##@modulSelect::x_core_localserver##}</div>
+		</{##modulSelect##}_x_core_localserverID>
+		<div style="clear:both;"></div>
+		<div id="itemView" style="width:90px;">{##@modulSelect::x_sealNumber##}</div>
+		<div id="itemView" style="width:100px;">{##@modulSelect::x_name##}</div>
+		<div id="itemView" style="width:80px;">{##@modulSelect::x_licence##}</div>
+		<{##modulSelect##}_x_bannerMmaximum>
+		<div id="itemView" style="width:70px;">{##@modulSelect::x_bannerMaximum##}</div>
+		</{##modulSelect##}_x_bannerMmaximum>
+		<{##modulSelect##}_x_marqueeMmaximum>
+		<div id="itemView" style="width:80px;">{##@modulSelect::x_marqueeMaximum##}</div>
+		</{##modulSelect##}_x_marqueeMmaximum>
+		<{##modulSelect##}_x_insertWhen>
+		<div style="clear:both;"></div>
+		<div id="itemView" style="width:120px;">{##@modulSelect::x_insertWhen##}</div>
+		</{##modulSelect##}_x_insertWhen>
+	</div>
+	<div style="float:right;">
+		<div class="{##@modulSelect::bgcolor##} itemViewRight">{##@modulSelect::x_submenu##}</div>
+		<div style="clear:both;"></div>
+	</div>
+	<div style="clear:both;"></div>
+</div>
+##/listItemForm##
+##listFilterForm##
+<configShare_searchFilter>
+<div id="searchFilter">
+	<{##modulSelect##}_s_core_localserverID>
+	<div id="searchFilterTitle">
+		<label title="{##@configShare::core_localserverIDTitle##}">{##&modulSelect::core_localserverIDTitle##}</label><br>
+		<select style="width:120px;" id="s_core_localserverID" name="s_core_localserverID" onchange="this.form.submit();">
+			{##@modulSelect::s_core_localserverID##}
+		</select>
+	</div>
+	</{##modulSelect##}_s_core_localserverID>
+	<div style="clear:both;"></div>
+</div>
+</configShare_searchFilter>
+##/listFilterForm##

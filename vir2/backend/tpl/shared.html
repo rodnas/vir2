@@ -1,0 +1,105 @@
+##listForm##
+<listTopNavigation>
+<div style="float:left;margin-top:6px;width:98%;">
+ 	<contentFrameMiniHead>
+	<div id="contentFrameMiniHead">
+	{##&modulSelect::titleTitle##}: {##&modulSelect::totalRecs##}
+	</div>
+ 	</contentFrameMiniHead>
+	<div id="navigationBox">
+		<form name="navigation" method="post" action="">
+		{##navigationHTML##}
+		</form>
+	</div>
+	<div id="navigationAddBox">
+		<form name="navigationAdd" method="post" action="">
+		{##navigationAddHTML##}
+		{##navigationBackHTML##}
+		</form>
+	</div>
+</div>
+</listTopNavigation>
+<div style="clear:both;height: 1px;"></div>
+<form method="post" name="{##modulAction##}form" action="">
+	<!-- input type="hidden" name="modulOperation" value="" -->
+	<div id='contentFrame'>{##contentListHTML##}</div>
+</form>
+<listBottomNavigation>
+<div style="float:left;margin-top:6px;width:98%;">
+	<div id="navigationBox">
+		<form name="navigation" method="post" action="">
+		{##navigationHTML##}
+		</form>
+	</div>
+	<div id="navigationAddBox">
+		<form name="navigationAdd" method="post" action="">
+		{##navigationAddHTML##}
+		{##navigationBackHTML##}
+		</form>
+	</div>
+</div>
+</listBottomNavigation>
+<div style="clear:both;height: 5px;"></div>
+##/listForm##
+##addForm##
+<form onSubmit="" enctype="multipart/form-data" method="post" name="{##modulAction##}form" action="{##actionForm##}">
+<input type="hidden" name="a" value="{##getAction##}">
+<input type="hidden" name="fieldFocus" value="{##x_fieldFocus##}">
+<input type="hidden" name="key" value="{##@itemValues::x_id##}">
+<input type="hidden" name="x_id" value="{##@itemValues::x_id##}">
+<input type="hidden" name="x_whichModul" value="{##whichModul##}">
+<input type="hidden" name="modulOperation" value="{##modulOperationNow##}">
+{##contentAddHTML##}
+{##navigationHTML##}
+</form>
+##/addForm##
+##editForm##
+<form onSubmit="" enctype="multipart/form-data" method="post" name="{##modulAction##}form" action="{##actionForm##}">
+<input type="hidden" name="a" value="{##getAction##}">
+<input type="hidden" name="fieldFocus" value="{##x_fieldFocus##}">
+<input type="hidden" name="key" value="{##@itemValues::x_id##}">
+<input type="hidden" name="x_id" value="{##@itemValues::x_id##}">
+{##contentEditHTML##}
+{##navigationHTML##}
+</form>
+##/editForm##
+##viewForm##
+<form onSubmit="" enctype="multipart/form-data" method="post" name="{##modulAction##}form" action="{##actionForm##}">
+<input type="hidden" name="a" value="{##getAction##}">
+<input type="hidden" name="key" value="{##key##}">
+{##contentViewHTML##}
+{##deleteReally##}
+{##navigationHTML##}
+</form>
+##/viewForm##
+##pdfForm##
+<form onSubmit="" enctype="multipart/form-data" method="post" name="{##modulAction##}form" action="{##actionForm##}">
+<input type="hidden" name="a" value="{##getAction##}">
+<input type="hidden" name="key" value="{##key##}">
+{##contentPDFHTML##}
+{##navigationHTML##}
+</form>
+##/pdfForm##
+##topSearchBasicForm##
+	<div id="searchTitle">
+		<b>{##configShare::searchTitle##}</b>
+		&nbsp<input type="text" name="{##modulSelect##}psearch" value="{##configShare::pSearchOriginal##}" size="22" maxlength="100" placeholder="{##configShare::searchTitle##}">&nbsp;
+	</div>
+	<div id="searchButton">
+  		<button style='background-image:url({##configShare::imageButton##}pipa.png)' class='button24x24YesBox' title='{##configShare::searchTitle##}' name='submitSearch' type='submit' value=''></button>
+	</div>
+	{##configShare::searchFileterOff##}
+##/topSearchBasicForm##
+##listFilterForm##
+{##listFilterHTML##}
+##/listFilterForm##
+##themesSelectForm##
+<form method="post" name="themesChangeform" action="">
+	<div id="themesText">{##configShare::themesIDTitle##}</div>
+	<div id="topServiceSelectText">
+	<select style="background-color:{##actualBgColor##};color:{##actualFgColor##};border:2px solid;" onchange="this.form.submit();" name="x_core_themesFilterID">
+	{##core_themes::themesSelect##}
+	</select>
+	</div>
+</form>
+##/themesSelectForm##

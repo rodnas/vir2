@@ -1,0 +1,466 @@
+##inputForm##
+<div id="contentFrame">
+	<{##modulSelect##}_x_core_localserverID>
+	<div id="itemTitle" style="width:100px;">
+		<label title="{##@modulSelect::core_localserverIDLabel##}">{##&modulSelect::core_localserverIDTitle##}</label>
+	</div>
+	<div id="itemView">
+		<select style="width:150px;" id="x_core_localserverID" name="x_core_localserverID">{##@modulSelect::x_core_localserverID##}</select>
+	</div>
+	<div style="clear:both;height: 1px;"></div>
+	</{##modulSelect##}_x_core_localserverID>
+	<{##modulSelect##}_x_nocore_doctorID>
+	<div id="itemTitle" style="width:100px;">
+		<label title="{##@modulSelect::nocore_doctorIDLabel##}">{##&modulSelect::nocore_doctorIDTitle##}</label>
+	</div>
+	<div id="itemView">
+		<select style="width:150px;" id="x_nocore_doctorID" name="x_nocore_doctorID">{##@modulSelect::x_nocore_doctorID##}</select>
+	</div>
+	<div style="clear:both;height: 1px;"></div>
+	</{##modulSelect##}_x_nocore_doctorID>
+	<div id="itemTitle" style="width:100px;">
+		<label title="{##@modulSelect::core_advert_advertiserIDLabel##}">{##&modulSelect::core_advert_advertiserIDTitle##}</label>
+	</div>
+	<div id="itemView">
+		<select style="width:150px;" id="x_core_advert_advertiserID" name="x_core_advert_advertiserID">{##@modulSelect::x_core_advert_advertiserID##}</select>
+	</div>
+	<div style="clear:both;height: 1px;"></div>
+	<{##modulSelect##}_x_core_advert_groupID>
+	<div id="itemTitle" style="width:100px;">
+		<label title="{##@modulSelect::core_advert_groupIDLabel##}">{##&modulSelect::core_advert_groupIDTitle##}</label>
+	</div>
+	<div id="itemView">
+		<select style="width:150px;" id="x_core_advert_groupID" name="x_core_advert_groupID">{##@modulSelect::x_core_advert_groupID##}</select>
+	</div>
+	<div style="clear:both;height: 1px;"></div>
+	</{##modulSelect##}_x_core_advert_groupID>
+	<div id="itemTitle" style="width:100px;">
+		<label title="{##@modulSelect::core_advert_campaignIDLabel##}">{##&modulSelect::core_advert_campaignIDTitle##}</label>
+	</div>
+	<div id="itemView">
+		<select style="width:150px;" id="x_core_advert_campaignID" name="x_core_advert_campaignID">{##@modulSelect::x_core_advert_campaignID##}</select>
+	</div>
+	<div style="clear:both;height: 1px;"></div>
+	<{##modulSelect##}_x_core_advert_zoneID>
+	<div id="itemTitle" style="width:100px;">
+		<label title="{##@modulSelect::core_advert_zoneIDLabel##}">{##&modulSelect::core_advert_zoneIDTitle##}</label>
+	</div>
+	<div id="itemView">
+		<select style="width:150px;" id="x_core_advert_zoneID" name="x_core_advert_zoneID">{##@modulSelect::x_core_advert_zoneID##}</select>
+	</div>
+	<div style="clear:both;height: 1px;"></div>
+	</{##modulSelect##}_x_core_advert_zoneID>
+	<div id="itemTitle" style="width:100px;">
+		<label title="{##@modulSelect::core_advert_sourceIDLabel##}">{##&modulSelect::core_advert_sourceIDTitle##}</label>
+	</div>
+	<div id="itemView">
+		<select style="width:150px;" id="x_core_advert_sourceID" name="x_core_advert_sourceID">{##@modulSelect::x_core_advert_sourceID##}</select>
+	</div>
+	<div style="clear:both;height: 1px;"></div>
+	<div id="itemTitle" style="width:100px;">
+		<label title="{##@modulSelect::core_advert_sizeIDLabel##}">{##&modulSelect::core_advert_sizeIDTitle##}</label>
+	</div>
+	<div id="itemView">
+		<select style="width:150px;" id="x_core_advert_sizeID" name="x_core_advert_sizeID">{##@modulSelect::x_core_advert_sizeID##}</select>
+	</div>
+	<div style="clear:both;height: 1px;"></div>
+	<div id="itemTitle" style="width:100px;">
+		<label title="{##@modulSelect::nameLabel##}">{##&modulSelect::nameTitle##}</label>
+	</div>
+	<div id="itemView">
+		<input type="text" value="{##@modulSelect::x_name##}" maxlength="90" size="62" id="x_name" name="x_name">
+	</div>
+	<div style="clear:both;height: 1px;"></div>
+	<div id="itemTitle" style="width:100px;">
+		<label title="{##@modulSelect::advertFileNameLabel##}">{##&modulSelect::advertFileNameTitle##}</label>
+	</div>
+	<div id="itemView"><input type="file" name="x_advertFileName" size="62" maxlength="100" value=""></div>
+	<div style="clear:both;height: 1px;"></div>
+	<div style="float:center;">{##@modulSelect::x_advertFileName##}</div>
+	<div style="clear:both;height: 1px;"></div>
+	<{##modulSelect##}_x_textValue>
+	<div id="itemLineTitle">
+		<label title="{##@modulSelect::textValueLabel##}">{##&modulSelect::textValueTitle##}</label>
+	</div>
+	<div style="clear:both;height: 1px;"></div>
+	<div style="float:center;text-align:center">
+		<textarea style="border: 1px solid #999999;" rows="4" cols="95" id="x_textValue" name="x_textValue">{##@modulSelect::x_textValue##}</textarea>
+	</div>
+	<div style="clear:both;height: 1px;"></div>
+	</{##modulSelect##}_x_textValue>
+	<div id="itemTitle" style="width:100px;">
+		<label title="{##@modulSelect::jumpURLLabel##}">{##&modulSelect::jumpURLTitle##}</label>
+	</div>
+	<div id="itemView">
+		<input type="text" id="x_jumpURL" name="x_jumpURL" size="72" maxlength="255" value="{##@modulSelect::x_jumpURL##}">&nbsp;
+	</div>
+	<div style="clear:both;height: 1px;"></div>
+	<div id="itemTitle" style="width:60px;">
+		<label title="{##@modulSelect::activateWhenLabel##}">{##&modulSelect::activateWhenTitle##}</label>
+	</div>
+	<div id="itemView">
+		<input type="text" id="x_activateWhen" name="x_activateWhen" size="20" maxlength="20" value="{##@modulSelect::x_activateWhen##}">&nbsp;{##configShare::dateViewFormatTitle##}&nbsp;
+	</div>
+	<div id="itemTitle" style="width:60px;">
+		<label title="{##@modulSelect::deactivateWhenLabel##}">{##&modulSelect::deactivateWhenTitle##}</label>
+	</div>
+	<div id="itemView">
+		<input type="text" id="x_deactivateWhen" name="x_deactivateWhen" size="20" maxlength="20" value="{##@modulSelect::x_deactivateWhen##}">&nbsp;{##configShare::dateViewFormatTitle##}&nbsp;
+	</div>
+	<div style="clear:both;height: 1px;"></div>
+	<div id="itemTitle" style="width:100px;">
+		<label title="{##@modulSelect::changeTimeLabel##}">{##&modulSelect::changeTimeTitle##}</label>
+	</div>
+	<div id="itemView">
+		<input type="text" id="x_changeTime" name="x_changeTime" size="10" maxlength="10" value="{##@modulSelect::x_changeTime##}">&nbsp;{##configShare::secTitle##}
+	</div>
+	<div style="clear:both;height: 1px;"></div>
+	<div id="itemTitle" style="width:60px;">
+		<label title="{##@modulSelect::sizeWidthLabel##}">{##&modulSelect::sizeWidthTitle##}</label>
+	</div>
+	<div id="itemView">
+		<input type="text" id="x_sizeWidth" name="x_sizeWidth" size="10" maxlength="10" value="{##@modulSelect::x_sizeWidth##}">
+	</div>
+	<div id="itemTitle" style="width:60px;">
+		<label title="{##@modulSelect::sizeHeightLabel##}">{##&modulSelect::sizeHeightTitle##}</label>
+	</div>
+	<div id="itemView">
+		<input type="text" id="x_sizeHeight" name="x_sizeHeight" size="10" maxlength="10" value="{##@modulSelect::x_sizeHeight##}">
+	</div>
+	<div style="clear:both;height: 1px;"></div>
+	<div id="itemTitle" style="width:150px;">
+		<label title="{##@modulSelect::playMaxNumLabel##}">{##&modulSelect::playMaxNumTitle##}</label>
+	</div>
+	<div id="itemView">
+		<input type="text" value="{##@modulSelect::x_playMaxNum##}" maxlength="20" size="20" id="x_playMaxNum" name="x_playMaxNum">&nbsp;{##configShare::pieceTitle##}&nbsp;
+	</div>
+	<div id="itemTitle" style="width:60px;">
+		<label title="{##@modulSelect::playCounterLabel##}">{##&modulSelect::playCounterTitle##}</label>
+	</div>
+	<div id="itemView">
+		<input type="text" value="{##@modulSelect::x_playCounter##}" maxlength="20" size="20" id="x_playCounter" name="x_playCounter">&nbsp;{##configShare::pieceTitle##}
+	</div>
+	<div style="clear:both;height: 1px;"></div>
+	<div id="itemTitle" style="width:150px;">
+		<label title="{##@modulSelect::clickMaxNumLabel##}">{##&modulSelect::clickMaxNumTitle##}</label>
+	</div>
+	<div id="itemView">
+		<input type="text" value="{##@modulSelect::x_clickMaxNum##}" maxlength="20" size="20" id="x_clickMaxNum" name="x_clickMaxNum">&nbsp;{##configShare::pieceTitle##}&nbsp;
+	</div>
+	<div id="itemTitle" style="width:60px;">
+		<label title="{##@modulSelect::clickCounterLabel##}">{##&modulSelect::clickCounterTitle##}</label>
+	</div>
+	<div id="itemView">
+		<input type="text" value="{##@modulSelect::x_clickCounter##}" maxlength="20" size="20" id="x_clickCounter" name="x_clickCounter">&nbsp;{##configShare::pieceTitle##}
+	</div>
+	<div style="clear:both;height: 1px;"></div>
+	<div id="itemTitle" style="width:150px;">
+		<label title="{##@modulSelect::priceMaxLabel##}">{##&modulSelect::priceMaxTitle##}</label>
+	</div>
+	<div id="itemView">
+		<input type="text" value="{##@modulSelect::x_priceMax##}" maxlength="20" size="20" id="x_priceMax" name="x_priceMax">
+	</div>
+	<div id="itemTitle" style="width:60px;">
+		<label title="{##@modulSelect::priceActualLabel##}">{##&modulSelect::priceActualTitle##}</label>
+	</div>
+	<div id="itemView">
+		<input type="text" value="{##@modulSelect::x_priceActual##}" maxlength="20" size="20" id="x_priceActual" name="x_priceActual">
+	</div>
+	<div style="clear:both;height: 1px;"></div>
+</div>
+##/inputForm##
+##viewForm##
+<div id="contentFrame">
+	<{##modulSelect##}_x_core_localserverID>
+	<div id="itemTitle" style="width:100px;">
+		<label title="{##@modulSelect::core_localserverIDLabel##}">{##&modulSelect::core_localserverIDTitle##}</label>
+	</div>
+	<div id="itemView">{##@modulSelect::x_core_localserverID##}</div>
+	<div style="clear:both;height: 1px;"></div>
+	</{##modulSelect##}_x_core_localserverID>
+	<{##modulSelect##}_x_nocore_doctorID>
+	<div id="itemTitle" style="width:100px;">
+		<label title="{##@modulSelect::nocore_doctorIDLabel##}">{##&modulSelect::nocore_doctorIDTitle##}</label>
+	</div>
+	<div id="itemView">{##@modulSelect::x_nocore_doctorID##}</div>
+	<div style="clear:both;height: 1px;"></div>
+	</{##modulSelect##}_x_nocore_doctorID>
+	<{##modulSelect##}_x_core_advert_advertiserID>
+	<div id="itemTitle" style="width:100px;">
+		<label title="{##@modulSelect::core_advert_advertiserIDTitle##}">{##&modulSelect::core_advert_advertiserIDTitle##}</label>
+	</div>
+	<div id="itemView">{##@modulSelect::x_core_advert_advertiserID##}</div>
+	<div style="clear:both;height: 1px;"></div>
+	</{##modulSelect##}_x_core_advert_advertiserID>
+	<{##modulSelect##}_x_core_advert_groupID>
+	<div id="itemTitle" style="width:100px;">
+		<label title="{##@modulSelect::core_advert_groupIDTitle##}">{##&modulSelect::core_advert_groupIDTitle##}</label>
+	</div>
+	<div id="itemView">{##@modulSelect::x_core_advert_groupID##}</div>
+	<div style="clear:both;height: 1px;"></div>
+	</{##modulSelect##}_x_core_advert_groupID>
+	<{##modulSelect##}_x_core_advert_campaignID>
+	<div id="itemTitle" style="width:100px;">
+		<label title="{##@modulSelect::core_advert_campaignIDTitle##}">{##&modulSelect::core_advert_campaignIDTitle##}</label>
+	</div>
+	<div id="itemView">{##@modulSelect::x_core_advert_campaignID##}</div>
+	<div style="clear:both;height: 1px;"></div>
+	</{##modulSelect##}_x_core_advert_campaignID>
+	<{##modulSelect##}_x_core_advert_zoneID>
+	<div id="itemTitle" style="width:100px;">
+		<label title="{##@modulSelect::core_advert_zoneIDTitle##}">{##&modulSelect::core_advert_zoneIDTitle##}</label>
+	</div>
+	<div id="itemView">{##@modulSelect::x_core_advert_zoneID##}</div>
+	<div style="clear:both;height: 1px;"></div>
+	</{##modulSelect##}_x_core_advert_zoneID>
+	<{##modulSelect##}_x_core_advert_sourceID>
+	<div id="itemTitle" style="width:100px;">
+		<label title="{##@modulSelect::core_advert_sourceIDTitle##}">{##&modulSelect::core_advert_sourceIDTitle##}</label>
+	</div>
+	<div id="itemView">{##@modulSelect::x_core_advert_sourceID##}</div>
+	<div style="clear:both;height: 1px;"></div>
+	</{##modulSelect##}_x_core_advert_sourceID>
+	<{##modulSelect##}_x_core_advert_sizeID>
+	<div id="itemTitle" style="width:100px;">
+		<label title="{##@modulSelect::core_advert_sizeIDTitle##}">{##&modulSelect::core_advert_sizeIDTitle##}</label>
+	</div>
+	<div id="itemView">{##@modulSelect::x_core_advert_sizeID##}</div>
+	<div style="clear:both;height: 1px;"></div>
+	</{##modulSelect##}_x_core_advert_sizeID>
+	<div id="itemTitle" style="width:100px;">
+		<label title="{##@modulSelect::nameTitle##}">{##&modulSelect::nameTitle##}</label>
+	</div>
+	<div id="itemView">{##@modulSelect::x_name##}</div>
+	<div style="clear:both;height: 1px;"></div>
+	<div id="itemLineTitle">
+		<label title="{##@modulSelect::advertFileNameTitle##}">{##&modulSelect::advertFileNameTitle##}</label>
+	</div>
+	<div style="float:center;">{##@modulSelect::x_advertFileName##}</div>
+	<div style="clear:both;height: 1px;"></div>
+	<{##modulSelect##}_x_textValue>
+	<div id="itemLineTitle">
+		<label title="{##@modulSelect::textValueTitle##}">{##&modulSelect::textValueTitle##}</label>
+	</div>
+	<div style="clear:both;height: 1px;"></div>
+	<div style="float:center;text-align:center">
+		<textarea style="border: 1px solid #999999;" rows="4" cols="95" id="x_textValue" name="x_textValue">{##@modulSelect::x_textValue##}</textarea>
+	</div>
+	<div style="clear:both;height: 1px;"></div>
+	</{##modulSelect##}_x_textValue>
+	<{##modulSelect##}_x_jumpURL>
+	<div id="itemTitle" style="width:100px;">
+		<label title="{##@modulSelect::jumpURLTitle##}">{##&modulSelect::jumpURLTitle##}</label>
+	</div>
+	<div id="itemView">{##@modulSelect::x_jumpURL##}</div>
+	<div style="clear:both;height: 1px;"></div>
+	</{##modulSelect##}_x_jumpURL>
+	<{##modulSelect##}_x_activateWhen>
+	<div id="itemTitle" style="width:60px;">
+		<label title="{##@modulSelect::activateWhenTitle##}">{##&modulSelect::activateWhenTitle##}</label>
+	</div>
+	<div id="itemView">{##@modulSelect::x_activateWhen##}&nbsp;{##configShare::dateViewFormatTitle##}</div>
+	</{##modulSelect##}_x_activateWhen>
+	<{##modulSelect##}_x_deactivateWhen>
+	<div id="itemTitle" style="width:60px;">
+		<label title="{##@modulSelect::deactivateWhenTitle##}">{##&modulSelect::deactivateWhenTitle##}</label>
+	</div>
+	<div id="itemView">{##@modulSelect::x_deactivateWhen##}&nbsp;{##configShare::dateViewFormatTitle##}</div>
+	<div style="clear:both;height: 1px;"></div>
+	</{##modulSelect##}_x_deactivateWhen>
+	<{##modulSelect##}_x_changeTime>
+	<div id="itemTitle" style="width:100px;">
+		<label title="{##@modulSelect::changeTimeTitle##}">{##&modulSelect::changeTimeTitle##}</label>
+	</div>
+	<div id="itemView">{##@modulSelect::x_changeTime##}&nbsp;{##configShare::secTitle##}</div>
+	<div style="clear:both;height: 1px;"></div>
+	</{##modulSelect##}_x_changeTime>
+	<{##modulSelect##}_x_sizeWidth>
+	<div id="itemTitle" style="width:60px;">
+		<label title="{##@modulSelect::sizeWidthTitle##}">{##&modulSelect::sizeWidthTitle##}</label>
+	</div>
+	<div id="itemView">{##@modulSelect::x_sizeWidth##}</div>
+	</{##modulSelect##}_x_sizeWidth>
+	<{##modulSelect##}_x_sizeHeight>
+	<div id="itemTitle" style="width:60px;">
+		<label title="{##@modulSelect::sizeHeightTitle##}">{##&modulSelect::sizeHeightTitle##}</label>
+	</div>
+	<div id="itemView">{##@modulSelect::x_sizeHeight##}</div>
+	<div style="clear:both;height: 1px;"></div>
+	</{##modulSelect##}_x_sizeHeight>
+	<{##modulSelect##}_x_playMaxNum>
+	<div id="itemTitle" style="width:150px;">
+		<label title="{##@modulSelect::playMaxNumTitle##}">{##&modulSelect::playMaxNumTitle##}</label>
+	</div>
+	<div id="itemView">{##@modulSelect::x_playMaxNum##}&nbsp;{##configShare::pieceTitle##}</div>
+	</{##modulSelect##}_x_playMaxNum>
+	<{##modulSelect##}_x_playCounter>
+	<div id="itemTitle" style="width:60px;">
+		<label title="{##@modulSelect::playCounterTitle##}">{##&modulSelect::playCounterTitle##}</label>
+	</div>
+	<div id="itemView">{##@modulSelect::x_playCounter##}&nbsp;{##configShare::pieceTitle##}</div>
+	<div style="clear:both;height: 1px;"></div>
+	</{##modulSelect##}_x_playCounter>
+	<{##modulSelect##}_x_clickMaxNum>
+	<div id="itemTitle" style="width:150px;">
+		<label title="{##@modulSelect::clickMaxNumTitle##}">{##&modulSelect::clickMaxNumTitle##}</label>
+	</div>
+	<div id="itemView">{##@modulSelect::x_clickMaxNum##}&nbsp;{##configShare::pieceTitle##}</div>
+	</{##modulSelect##}_x_clickMaxNum>
+	<{##modulSelect##}_x_clickCounter>
+	<div id="itemTitle" style="width:60px;">
+		<label title="{##@modulSelect::clickCounterTitle##}">{##&modulSelect::clickCounterTitle##}</label>
+	</div>
+	<div id="itemView">{##@modulSelect::x_clickCounter##}&nbsp;{##configShare::pieceTitle##}</div>
+	<div style="clear:both;height: 1px;"></div>
+	</{##modulSelect##}_x_clickCounter>
+	<{##modulSelect##}_x_priceMax>
+	<div id="itemTitle" style="width:150px;">
+		<label title="{##@modulSelect::priceMaxTitle##}">{##&modulSelect::priceMaxTitle##}</label>
+	</div>
+	<div id="itemView">{##@modulSelect::x_priceMax##}</div>
+	</{##modulSelect##}_x_priceMax>
+	<{##modulSelect##}_x_priceActual>
+	<div id="itemTitle" style="width:60px;">
+		<label title="{##@modulSelect::priceActualTitle##}">{##&modulSelect::priceActualTitle##}</label>
+	</div>
+	<div id="itemView">{##@modulSelect::x_priceActual##}</div>
+	<div style="clear:both;height: 1px;"></div>
+	</{##modulSelect##}_x_priceActual>
+</div>
+##/viewForm##
+##listHeadForm##
+<div id="listHeader">
+	<div style="float:left;">
+		<{##modulSelect##}_x_core_localserverID>
+		<div id="itemView" style="width:90px;">{##@modulSelect::core_localserverIDTitle##}</div>
+		</{##modulSelect##}_x_core_localserverID>
+		<{##modulSelect##}_x_nocore_doctorID>
+		<div id="itemView" style="width:90px;">{##@modulSelect::nocore_doctorIDTitle##}</div>
+		</{##modulSelect##}_x_nocore_doctorID>
+		<div style="clear:both;"></div>
+		<div id="itemView" style="width:160px;">{##@modulSelect::nameTitle##}</div>
+		<{##modulSelect##}_x_sourceName>
+		<div id="itemView" style="width:80px;">{##@modulSelect::sourceNameTitle##}</div>
+		</{##modulSelect##}_x_sourceName>
+		<div style="clear:both;"></div>
+		<{##modulSelect##}_x_sizeWidth>
+		<div id="itemView" style="width:90px;">{##@modulSelect::sizeWidthTitle##}</div>
+		</{##modulSelect##}_x_sizeWidth>
+		<{##modulSelect##}_x_sizeHeight>
+		<div id="itemView" style="width:80px;">{##@modulSelect::sizeHeightTitle##}</div>
+		</{##modulSelect##}_x_sizeHeight>
+		<div style="clear:both;"></div>
+		<{##modulSelect##}_x_insertWhen>
+		<div id="itemView" style="width:120px;">{##@modulSelect::insertWhenTitle##}</div>
+		</{##modulSelect##}_x_insertWhen>
+	</div>
+	<div style="float:left;">
+		<div id="itemView" style="width:150px;">{##@modulSelect::advertFileNameTitle##}</div>
+	</div>
+	<div style="clear:both;"></div>
+</div>
+##/listHeadForm##
+##listItemForm##
+<div id="listItem" class="{##@modulSelect::bgcolor##}">
+	<div style="float:left;">
+		<{##modulSelect##}_x_core_localserverID>
+		<div id="itemView" style="width:90px;">{##@modulSelect::x_core_localserver##}</div>
+		</{##modulSelect##}_x_core_localserverID>
+		<{##modulSelect##}_x_nocore_doctorID>
+		<div id="itemView" style="width:90px;">{##@modulSelect::x_nocore_doctor##}</div>
+		</{##modulSelect##}_x_nocore_doctorID>
+		<div style="clear:both;"></div>
+		<div id="itemView" style="width:160px;">{##@modulSelect::x_name##}</div>
+		<{##modulSelect##}_x_sourceName>
+		<div id="itemView" style="width:80px;">{##@modulSelect::x_core_advert_sourceName##}</div>
+		</{##modulSelect##}_x_sourceName>
+		<div style="clear:both;"></div>
+		<{##modulSelect##}_x_sizeWidth>
+		<div id="itemView" style="width:90px;">{##@modulSelect::x_sizeWidth##}</div>
+		</{##modulSelect##}_x_sizeWidth>
+		<{##modulSelect##}_x_sizeHeight>
+		<div id="itemView" style="width:80px;">{##@modulSelect::x_sizeHeight##}</div>
+		</{##modulSelect##}_x_sizeHeight>
+		<div style="clear:both;"></div>
+		<{##modulSelect##}_x_insertWhen>
+		<div id="itemView" style="width:120px;">{##@modulSelect::x_insertWhen##}</div>
+		</{##modulSelect##}_x_insertWhen>
+	</div>
+	<div style="float:left;">
+		<div id="itemView" style="width:150px;"><img src="{##@modulSelect::x_advertFileName##}" id="thumbView"></div>
+	</div>
+	<div style="float:right;">
+		<div class="{##@modulSelect::bgcolor##} itemViewRight">{##@modulSelect::x_submenu##}</div>
+		<div style="clear:both;"></div>
+	</div>
+	<div style="clear:both;"></div>
+</div>
+##/listItemForm##
+##listFilterForm##
+<div id="searchFilter">
+	<{##modulSelect##}_s_core_localserverID>
+	<div id="searchFilterTitle">
+		<label title="{##@modulSelect::core_localserverIDTitle##}">{##&modulSelect::core_localserverIDTitle##}</label><br>
+		<select style="width:120px;" id="s_core_localserverID" name="s_core_localserverID" onchange="this.form.submit();">
+			{##@modulSelect::s_core_localserverID##}
+		</select>
+	</div>
+	</{##modulSelect##}_s_core_localserverID>
+	<{##modulSelect##}_s_nocore_doctorID>
+	<div id="searchFilterTitle">
+		<label title="{##@modulSelect::nocore_doctorIDTitle##}">{##&modulSelect::nocore_doctorIDTitle##}</label><br>
+		<select style="width:120px;" id="s_nocore_doctorID" name="s_nocore_doctorID" onchange="this.form.submit();">
+			{##@modulSelect::s_nocore_doctorID##}
+		</select>
+	</div>
+	</{##modulSelect##}_s_nocore_doctorID>
+	<div style="clear:both;"></div>
+	<div id="searchFilterTitle">
+		<label title="{##@modulSelect::core_advert_advertiserIDTitle##}">{##&modulSelect::core_advert_advertiserIDTitle##}</label><br>
+		<select style="width:120px;" id="s_core_advert_advertiserID" name="s_core_advert_advertiserID" onchange="this.form.submit();">
+			{##@modulSelect::s_core_advert_advertiserID##}
+		</select>
+	</div>
+	<{##modulSelect##}_x_core_advert_campaignID>
+	<div id="searchFilterTitle">
+		<label title="{##@modulSelect::core_advert_campaignIDTitle##}">{##&modulSelect::core_advert_campaignIDTitle##}</label><br>
+		<select style="width:120px;" id="s_core_advert_campaignID" name="s_core_advert_campaignID" onchange="this.form.submit();">
+			{##@modulSelect::s_core_advert_campaignID##}
+		</select>
+	</div>
+	</{##modulSelect##}_x_core_advert_campaignID>
+	<{##modulSelect##}_x_core_advert_zoneID>
+	<div id="searchFilterTitle">
+		<label title="{##@modulSelect::core_advert_zoneIDTitle##}">{##&modulSelect::core_advert_zoneIDTitle##}</label><br>
+		<select style="width:120px;" id="s_core_advert_zoneID" name="s_core_advert_zoneID" onchange="this.form.submit();">
+			{##@modulSelect::s_core_advert_zoneID##}
+		</select>
+	</div>
+	</{##modulSelect##}_x_core_advert_zoneID>
+	<{##modulSelect##}_x_core_advert_groupID>
+	<div id="searchFilterTitle">
+		<label title="{##@modulSelect::core_advert_groupIDTitle##}">{##&modulSelect::core_advert_groupIDTitle##}</label><br>
+		<select style="width:120px;" id="s_core_advert_groupID" name="s_core_advert_groupID" onchange="this.form.submit();">
+			{##@modulSelect::s_core_advert_groupID##}
+		</select>
+	</div>
+	</{##modulSelect##}_x_core_advert_groupID>
+	<{##modulSelect##}_x_core_advert_sourceID>
+	<div id="searchFilterTitle">
+		<label title="{##@modulSelect::core_advert_sourceIDTitle##}">{##&modulSelect::core_advert_sourceIDTitle##}</label><br>
+		<select style="width:120px;" id="s_core_advert_sourceID" name="s_core_advert_sourceID" onchange="this.form.submit();">
+			{##@modulSelect::s_core_advert_sourceID##}
+		</select>
+	</div>
+	</{##modulSelect##}_x_core_advert_sourceID>
+	<{##modulSelect##}_x_core_advert_sizeID>
+	<div id="searchFilterTitle">
+		<label title="{##@modulSelect::core_advert_sizeIDTitle##}">{##&modulSelect::core_advert_sizeIDTitle##}</label><br>
+		<select style="width:120px;" id="s_core_advert_sizeID" name="s_core_advert_sizeID" onchange="this.form.submit();">
+			{##@modulSelect::s_core_advert_sizeID##}
+		</select>
+	</div>
+	</{##modulSelect##}_x_core_advert_sizeID>
+	<div style="clear:both;"></div>
+</div>
+##/listFilterForm##
