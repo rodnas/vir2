@@ -1,0 +1,112 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html lang="hu">
+<head>
+<title>{##systemTitle##}</title>
+<meta name="Description" content="{##metaDescriptionHTML##}">
+<meta name="Keywords" content="{##metaKeywordsHTML##}">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<meta http-equiv="content-language" content="hu">
+<meta name="language" content="hu">
+<link type="text/css" href="../index.php?systemType=backend&amp;cssconvert=backend&amp;resolution=0" rel="stylesheet">
+<script src="../share/js/jquery-1.10.1.min.js"></script>
+<script type="text/javascript" src="../index.php?systemType=backend&amp;jsconvert=backend"></script>
+{##pageStartHTML##}
+</head> 
+<body class="bodyPage">
+<div id="htmlPageFull">
+<div id="topHeaderBox">
+<div id="logoBox">{##topLogoHTML##}</div>
+<form method="post" name="topform" action="">
+<div id="loginBox">{##loginServiceHTML##}</div>
+<div id="developBox">{##topDevelopHTML##}</div>
+<div style="float:right;margin-right:10px;">{##layoutChangeHTML##}</div>
+<div id="themesBox">{##themesHTML##}&nbsp;{##langsHTML##}</div>
+</form>
+<div style="clear:both;"></div>
+{##topMessageHTML##}
+<div style="clear:both;"></div>
+</div>
+
+<div id="contentBox">
+	<div id="contentLeft">
+		<div id="contentText">
+			<form method="post" name="searchFilterform" action="">
+			<!-- button value="simple::layoutsetup::close" type="submit" name="modulOperation" title="Nem" class="button20x20">X</button -->
+			{##listFilterFullMiniHTML##}
+			</form>
+			<div style="clear:both;"></div>
+			{##formStartHTML##}
+			<div id="contentFrameMini">
+				<div id="nocore_waitingList">
+					{##nocore_waitingHTML##}
+					<script language="JavaScript" type="text/JavaScript">
+						setInterval(function(){getnocore_waitingList()},{##boxRefresh##}*1000);
+					</script>
+				</div>
+			</div>
+			<div id="contentFrameMini">
+				<div id="nocore_providedList">
+					{##nocore_providedHTML##}
+					<script language="JavaScript" type="text/JavaScript">
+						setInterval(function(){getnocore_providedList()},{##boxRefresh##}*1000);
+					</script>
+				</div>
+			</div>
+			<div id="contentFrameMini">
+				<div id="nocore_prerecordedList">
+					{##nocore_prerecordedHTML##}
+					<script language="JavaScript" type="text/JavaScript">
+						setInterval(function(){getnocore_prerecordedList()},{##boxRefresh##}*1000);
+					</script>
+				</div>
+			</div>
+			{##formStopHTML##}
+		</div>
+	</div>
+	<div style="margin-left:450px;margin-right:5px;">
+		<div id="contentRight" style="width:100%;">
+			<div id="contentText">
+				<div id="topMenuText">
+				{##topMenuHTML##}
+				</div>
+			</div>
+			<div id="contentText">
+				<form method="post" name="searchFilterform" action="">
+				<div id="topStatusBox">
+					<div style="float:left;">
+					{##topStatusHTML##}
+					</div>
+					<div id="searchBox">
+					{##topSearchBasicHTML##}
+					</div>
+					<div style="clear:both;"></div>
+				</div>
+				{##listFilterFullHTML##}
+				</form>
+				{##statusMessageHTML##}
+				<div style="clear:both;"></div>
+				{##formStartHTML##}
+				<div style="width:100%;">
+					{##nocore_reservationHTML##}
+					{##contentHTML##}
+				</div>
+				{##formStopHTML##}
+			</div>
+		<div style="clear:both;"></div>
+		</div>
+	<div style="clear:both;"></div>
+	</div>
+<div style="clear:both;"></div>
+</div>
+<div style="clear:both;height:2px;"></div>
+<div id="footerBox">
+<div id="footerText">
+{##configShare::copyrightTitle##}
+<div id="runtime">{##runTime##}</div>
+</div>
+</div>
+
+</div>
+</div>
+</body>
+</html>

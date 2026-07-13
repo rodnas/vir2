@@ -1,0 +1,75 @@
+##inputForm##
+##/inputForm##
+##viewForm##
+##/viewForm##
+##listHeadForm##
+<div id="listHeader">
+	<{##modulSelect##}_x_core_localserverID>
+	<div id="itemView" style="width:90px;">{##@modulSelect::core_localserverIDTitle##}</div>
+	</{##modulSelect##}_x_core_localserverID>
+	<{##modulSelect##}_x_nocore_doctorID>
+	<div id="itemView" style="width:90px;">{##@modulSelect::nocore_doctorIDTitle##}</div>
+	</{##modulSelect##}_x_nocore_doctorID>
+	<div style="clear:both;"></div>
+	<div id="itemView" style="width:70px;">{##@modulSelect::insertWhenTitle##}</div>
+	<div id="itemView" style="width:80px;">{##@modulSelect::patientIDTitle##}</div>
+	<div id="itemView" style="width:60px;">{##@modulSelect::nocore_whereIDTitle##}</div>
+	<div id="itemView" style="width:80px;">{##@modulSelect::nocore_statusIDTitle##}</div>
+	<div style="clear:both;"></div>
+</div>
+##/listHeadForm##
+##listItemForm##
+<div id="listItem" class="{##@modulSelect::bgcolor##}">
+	<div style="float:left;">
+		<{##modulSelect##}_x_core_localserverID>
+		<div id="itemView" style="width:90px;">{##@modulSelect::x_core_localserver##}</div>
+		</{##modulSelect##}_x_core_localserverID>
+		<{##modulSelect##}_x_nocore_doctorID>
+		<div id="itemView" style="width:90px;">{##@modulSelect::x_sealNumber##}</div>
+		</{##modulSelect##}_x_nocore_doctorID>
+		<div style="clear:both;"></div>
+		<div id="itemView" style="width:70px;">{##@modulSelect::x_id##}- {##@modulSelect::x_insertWhenTime##}</div>
+		<div id="itemView" style="width:80px;">{##@modulSelect::x_patientID##}</div>
+		<div id="itemView" style="width:60px;">{##@modulSelect::x_nocore_where##}</div>
+		<div id="itemView" style="width:80px;">{##@modulSelect::x_nocore_status##}</div>
+	</div>
+	<div style="float:right;">
+		<div class="{##@modulSelect::bgcolor##} itemViewRight">{##@modulSelect::x_submenu##}</div>
+		<div style="clear:both;"></div>
+	</div>
+	<div style="clear:both;"></div>
+</div>
+##/listItemForm##
+##listFilterForm##
+<div id="searchFilter">
+	<{##modulSelect##}_s_core_localserverID>
+	<div id="searchFilterTitle">
+		<label title="{##@modulSelect::core_localserverIDTitle##}">{##&modulSelect::core_localserverIDTitle##}</label><br>
+		<select style="width:120px;" id="left_s_core_localserverID" name="left_s_core_localserverID" onchange="this.form.submit();">
+			{##@modulSelect::left_s_core_localserverID##}
+		</select>
+	</div>
+	</{##modulSelect##}_s_core_localserverID>
+	<{##modulSelect##}_s_nocore_doctorID>
+	<div id="searchFilterTitle">
+		<label title="{##@modulSelect::nocore_doctorIDTitle##}">{##&modulSelect::nocore_doctorIDTitle##}</label><br>
+		<select style="width:120px;" id="left_s_sealNumber" name="left_s_sealNumber" onchange="this.form.submit();">
+			{##@modulSelect::left_s_sealNumber##}
+		</select>
+	</div>
+	</{##modulSelect##}_s_nocore_doctorID>
+	<div id="searchFilterTitle">
+		<label title="{##@modulSelect::nocore_whereTitle##}">{##&modulSelect::nocore_whereIDTitle##}</label><br>
+		<select style="width:120px;" id="left_s_nocore_whereID" name="left_s_nocore_whereID" onchange="this.form.submit();">
+			{##@modulSelect::left_s_nocore_whereID##}
+		</select>
+	</div>
+	<div id="searchFilterTitle">
+		<label title="{##@modulSelect::nocore_statusTitle##}">{##&modulSelect::nocore_statusIDTitle##}</label><br>
+		<select style="width:120px;" id="left_s_nocore_statusID" name="left_s_nocore_statusID" onchange="this.form.submit();">
+			{##@modulSelect::left_s_nocore_statusID##}
+		</select>
+	</div>
+	<div style="clear:both;"></div>
+</div>
+##/listFilterForm##

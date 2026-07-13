@@ -1,0 +1,141 @@
+##inputForm##
+<div id="contentFrame"{##marginLeft##}>
+	{##@modulSelect::x_templatePopupName##}
+	<div id="itemTitle" style="width:100px;">
+		<label title="{##@modulSelect::insertWhenLabel##}">{##&modulSelect::insertWhenTitle##}</label>
+	</div>
+	<div id="itemView">
+		{##@modulSelect::x_insertWhenTime##}
+	</div>
+	<div style="clear:both;height: 1px;"></div>
+	<div id="itemTitle" style="width:100px;">
+		<label title="{##@modulSelect::patientIDLabel##}">{##&modulSelect::patientIDTitle##}</label>
+	</div>
+	<div id="itemView">
+		{##@modulSelect::x_patientID##}
+	</div>
+	<div style="clear:both;height: 1px;"></div>
+	<div id="itemTitle" style="width:100px;">
+		<label title="{##@modulSelect::sealNumberLabel##}">{##&modulSelect::sealNumberTitle##}</label>
+	</div>
+	<div id="itemView">
+		{##@modulSelect::nocore_doctor##}
+	</div>
+	<div style="clear:both;height: 1px;"></div>
+	<div id="itemTitle" style="width:100px;">
+		<label title="{##@modulSelect::whereWaitLabel##}">{##&modulSelect::nocore_whereIDTitle##}</label>
+	</div>
+	<div id="itemView">
+		{##@modulSelect::nocore_where##}
+	</div>
+	<div style="clear:both;height: 1px;"></div>
+	<div id="itemTitle" style="width:100px;">
+		<label title="{##@modulSelect::statusIDLabel##}">{##&modulSelect::nocore_statusIDTitle##}</label>
+	</div>
+	<div id="itemView">
+		<select style="width:150px;" id="x_statusID" name="x_statusID">{##@modulSelect::x_nocore_statusID##}</select>
+		{##@modulSelect::x_statusID_Error##}
+	</div>
+	<div style="clear:both;height: 1px;"></div>
+</div>
+##/inputForm##
+##viewForm##
+<div id="contentFrame"{##marginLeft##}>
+	<div id="itemTitle" style="width:100px;">
+		<label title="{##@modulSelect::insertWhenTitle##}">{##&modulSelect::insertWhenTitle##}</label>
+	</div>
+	<div id="itemView">{##@modulSelect::x_insertWhenTime##}</div>
+	<div style="clear:both;height: 1px;"></div>
+	<div id="itemTitle" style="width:100px;">
+		<label title="{##@modulSelect::patientIDTitle##}">{##&modulSelect::patientIDTitle##}</label>
+	</div>
+	<div id="itemView">{##@modulSelect::x_patientID##}</div>
+	<div style="clear:both;height: 1px;"></div>
+	<div id="itemTitle" style="width:100px;">
+		<label title="{##@modulSelect::sealNumberTitle##}">{##&modulSelect::sealNumberTitle##}</label>
+	</div>
+	<div id="itemView">{##@modulSelect::nocore_doctor##}</div>
+	<div style="clear:both;height: 1px;"></div>
+	<div id="itemTitle" style="width:100px;">
+		<label title="{##@modulSelect::whereWaitTitle##}">{##&modulSelect::nocore_whereIDTitle##}</label>
+	</div>
+	<div id="itemView">{##@modulSelect::nocore_where##}</div>
+	<div style="clear:both;height: 1px;"></div>
+	<div id="itemTitle" style="width:100px;">
+		<label title="{##@modulSelect::statusIDTitle##}">{##&modulSelect::nocore_statusIDTitle##}</label>
+	</div>
+	<div id="itemView">{##@modulSelect::x_nocore_statusID##}</div>
+	<div style="clear:both;height: 1px;"></div>
+</div>
+##/viewForm##
+##listHeadForm##
+<div id="listHeader">
+	<{##modulSelect##}_x_core_localserverID>
+	<div id="itemView" style="width:90px;">{##@modulSelect::core_localserverIDTitle##}</div>
+	</{##modulSelect##}_x_core_localserverID>
+	<{##modulSelect##}_x_nocore_doctorID>
+	<div id="itemView" style="width:90px;">{##@modulSelect::sealNumberTitle##}</div>
+	</{##modulSelect##}_x_nocore_doctorID>
+	<div style="clear:both;"></div>
+	<div id="itemView" style="width:70px;">{##@modulSelect::insertWhenTitle##}</div>
+	<div id="itemView" style="width:80px;">{##@modulSelect::patientIDTitle##}</div>
+	<div id="itemView" style="width:60px;">{##@modulSelect::nocore_whereIDTitle##}</div>
+	<div id="itemView" style="width:80px;">{##@modulSelect::nocore_statusIDTitle##}</div>
+	<div style="clear:both;"></div>
+</div>
+##/listHeadForm##
+##listItemForm##
+<div id="listItem" class="{##@modulSelect::bgcolor##}">
+	<div style="float:left;">
+		<{##modulSelect##}_x_core_localserverID>
+		<div id="itemView" style="width:90px;">{##@modulSelect::x_core_localserver##}</div>
+		</{##modulSelect##}_x_core_localserverID>
+		<{##modulSelect##}_x_nocore_doctorID>
+		<div id="itemView" style="width:90px;">{##@modulSelect::x_sealNumber##}</div>
+		</{##modulSelect##}_x_nocore_doctorID>
+		<div style="clear:both;"></div>
+		<div id="itemView" style="width:70px;">{##@modulSelect::x_insertWhenTime##}</div>
+		<div id="itemView" style="width:80px;">{##@modulSelect::x_patientID##}</div>
+		<div id="itemView" style="width:60px;">{##@modulSelect::x_nocore_where##}</div>
+		<div id="itemView" style="width:80px;">{##@modulSelect::x_nocore_status##}</div>
+	</div>
+	<div style="float:right;">
+		<div class="{##@modulSelect::bgcolor##} itemViewRight">{##@modulSelect::x_submenu##}</div>
+		<div style="clear:both;"></div>
+	</div>
+	<div style="clear:both;"></div>
+</div>
+##/listItemForm##
+##listFilterForm##
+<div id="searchFilter">
+<{##modulSelect##}_s_core_localserverID>
+	<div id="searchFilterTitle">
+		<label title="{##@modulSelect::core_localserverIDTitle##}">{##&modulSelect::core_localserverIDTitle##}</label><br>
+		<select style="width:120px;" id="s_core_localserverID" name="s_core_localserverID" onchange="this.form.submit();">
+			{##@modulSelect::s_core_localserverID##}
+		</select>
+	</div>
+</{##modulSelect##}_s_core_localserverID>
+<{##modulSelect##}_s_nocore_doctorID>
+	<div id="searchFilterTitle">
+		<label title="{##@modulSelect::sealNumberTitle##}">{##&modulSelect::sealNumberTitle##}</label><br>
+		<select style="width:120px;" id="s_sealNumber" name="s_sealNumber" onchange="this.form.submit();">
+			{##@modulSelect::s_sealNumber##}
+		</select>
+	</div>
+</{##modulSelect##}_s_nocore_doctorID>
+	<div id="searchFilterTitle">
+		<label title="{##@modulSelect::nocore_whereTitle##}">{##&modulSelect::nocore_whereIDTitle##}</label><br>
+		<select style="width:120px;" id="s_nocore_whereID" name="s_nocore_whereID" onchange="this.form.submit();">
+			{##@modulSelect::s_nocore_whereID##}
+		</select>
+	</div>
+	<div id="searchFilterTitle">
+		<label title="{##@modulSelect::nocore_statusTitle##}">{##&modulSelect::nocore_statusIDTitle##}</label><br>
+		<select style="width:120px;" id="s_nocore_statusID" name="s_nocore_statusID" onchange="this.form.submit();">
+			{##@modulSelect::s_nocore_statusID##}
+		</select>
+	</div>
+	<div style="clear:both;"></div>
+</div>
+##/listFilterForm##

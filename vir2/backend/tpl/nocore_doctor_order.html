@@ -1,0 +1,242 @@
+##inputForm##
+<div id="contentFrame"{##marginLeft##}>
+	<{##modulSelect##}_x_core_localserverID>
+	<div id="itemTitle" style="width:100px;">
+		<label title="{##@modulSelect::core_localserverIDLabel##}">{##&modulSelect::core_localserverIDTitle##}</label>
+	</div>
+	<div id="itemView">
+		<select style="width:150px;" id="x_core_localserverID" name="x_core_localserverID">{##@modulSelect::x_core_localserverID##}</select>
+	</div>
+	<div style="clear:both;height: 1px;"></div>
+	</{##modulSelect##}_x_core_localserverID>
+	<{##modulSelect##}_x_nocore_doctorID>
+	<div id="itemTitle" style="width:100px;">
+		<label title="{##@modulSelect::nocore_doctorIDLabel##}">{##&modulSelect::nocore_doctorIDTitle##}</label>
+	</div>
+	<div id="itemView">
+		<select style="width:150px;" id="x_nocore_doctorID" name="x_nocore_doctorID">{##@modulSelect::x_nocore_doctorID##}</select>
+	</div>
+	<div style="clear:both;height: 1px;"></div>
+	</{##modulSelect##}_x_nocore_doctorID>
+	<div id="itemTitle" style="width:100px;">
+		<label title="{##@modulSelect::nocore_doctor_order_dayIDLabel##}">{##&modulSelect::nocore_doctor_order_dayIDTitle##}</label>
+	</div>
+	<div id="itemView">
+		<select style="width:150px;" id="x_nocore_doctor_order_dayID" name="x_nocore_doctor_order_dayID">{##@modulSelect::x_nocore_doctor_order_dayID##}</select>
+	</div>
+	<div style="clear:both;height: 1px;"></div>
+	<div id="itemTitle" style="width:100px;">
+		<label title="{##@modulSelect::nocore_doctor_order_typeIDLabel##}">{##&modulSelect::nocore_doctor_order_typeIDTitle##}</label>
+	</div>
+	<div id="itemView">
+		<select style="width:150px;" id="x_nocore_doctor_order_typeID" name="x_nocore_doctor_order_typeID">{##@modulSelect::x_nocore_doctor_order_typeID##}</select>
+	</div>
+	<div style="clear:both;height: 1px;"></div>
+	<div id="itemTitle" style="width:100px;">
+		<label title="{##@modulSelect::startTimeLabel##}">{##&modulSelect::startTimeTitle##}</label>
+	</div>
+	<div id="itemView">
+		<input type="text" name="x_startTime" id="x_startTime" size="8" maxlength="8" value="{##@modulSelect::x_startTime##}">&nbsp;{##configShare::timeViewFormatTitle##}
+	</div>
+	<div style="clear:both;height: 1px;"></div>
+	<div id="itemTitle" style="width:100px;">
+		<label title="{##@modulSelect::stopTimeLabel##}">{##&modulSelect::stopTimeTitle##}</label>
+	</div>
+	<div id="itemView">
+		<input type="text" name="x_stopTime" id="x_stopTime" size="8" maxlength="8" value="{##@modulSelect::x_stopTime##}">&nbsp;{##configShare::timeViewFormatTitle##}
+	</div>
+	<div style="clear:both;height: 1px;"></div>
+	<div id="itemTitle" style="width:100px;">
+		<label title="{##@modulSelect::startTimeReserveLabel##}">{##&modulSelect::startTimeReserveTitle##}</label>
+	</div>
+	<div id="itemView">
+		<input type="text" name="x_startTimeReserve" id="x_startTimeReserve" size="8" maxlength="8" value="{##@modulSelect::x_startTimeReserve##}">&nbsp;{##configShare::timeViewFormatTitle##}
+	</div>
+	<div style="clear:both;height: 1px;"></div>
+	<div id="itemTitle" style="width:100px;">
+		<label title="{##@modulSelect::stopTimeReserveLabel##}">{##&modulSelect::stopTimeReserveTitle##}</label>
+	</div>
+	<div id="itemView">
+		<input type="text" name="x_stopTimeReserve" id="x_stopTimeReserve" size="8" maxlength="8" value="{##@modulSelect::x_stopTimeReserve##}">&nbsp;{##configShare::timeViewFormatTitle##}
+	</div>
+	<div style="clear:both;height: 1px;"></div>
+	<div id="itemTitle" style="width:100px;">
+		<label title="{##@modulSelect::barcodeStartLabel##}">{##&modulSelect::barcodeStartTitle##}</label>
+	</div>
+	<div id="itemView">
+		<input type="text" name="x_barcodeStart" id="x_barcodeStart" size="4" maxlength="4" value="{##@modulSelect::x_barcodeStart##}">&nbsp;{##configShare::minTitle##}
+	</div>
+	<div style="clear:both;height: 1px;"></div>
+	<div id="itemTitle" style="width:100px;">
+		<label title="{##@modulSelect::barcodeStopLabel##}">{##&modulSelect::barcodeStopTitle##}</label>
+	</div>
+	<div id="itemView">
+		<input type="text" name="x_barcodeStop" id="x_barcodeStop" size="4" maxlength="4" value="{##@modulSelect::x_barcodeStop##}">&nbsp;{##configShare::minTitle##}
+	</div>
+	<div style="clear:both;height: 1px;"></div>
+	<div id="itemTitle" style="width:100px;">
+		<label title="{##@modulSelect::doctorIsLabel##}">{##&modulSelect::doctorIsTitle##}</label>
+	</div>
+	<div id="itemView">
+		<INPUT name="x_doctorIs" id="x_doctorIs" TYPE="checkbox" value="1" {##@modulSelect::x_doctorIs##}>
+	</div>
+	<div style="clear:both;height: 1px;"></div>
+	<div id="itemTitle" style="width:100px;">
+		<label title="{##@modulSelect::nurseIsLabel##}">{##&modulSelect::nurseIsTitle##}</label>
+	</div>
+	<div id="itemView">
+		<INPUT name="x_nurseIs" id="x_nurseIs" TYPE="checkbox" value="1" {##@modulSelect::x_nurseIs##}>
+	</div>
+	<div style="clear:both;height: 1px;"></div>
+</div>
+##/inputForm##
+##viewForm##
+<div id="contentFrame"{##marginLeft##}>
+	<{##modulSelect##}_x_core_localserverID>
+	<div id="itemTitle" style="width:100px;">
+		<label title="{##@modulSelect::core_localserverIDLabel##}">{##&modulSelect::core_localserverIDTitle##}</label>
+	</div>
+	<div id="itemView">{##@modulSelect::x_core_localserverID##}</div>
+	<div style="clear:both;height: 1px;"></div>
+	</{##modulSelect##}_x_core_localserverID>
+	<{##modulSelect##}_x_nocore_doctorID>
+	<div id="itemTitle" style="width:100px;">
+		<label title="{##@modulSelect::nocore_doctorIDLabel##}">{##&modulSelect::nocore_doctorIDTitle##}</label>
+	</div>
+	<div id="itemView">{##@modulSelect::x_nocore_doctorID##}</div>
+	<div style="clear:both;height: 1px;"></div>
+	</{##modulSelect##}_x_nocore_doctorID>
+	<div id="itemTitle" style="width:100px;">
+		<label title="{##@modulSelect::nocore_doctor_order_dayIDTitle##}">{##&modulSelect::nocore_doctor_order_dayIDTitle##}</label>
+	</div>
+	<div id="itemView">{##@modulSelect::x_nocore_doctor_order_dayID##}</div>
+	<div style="clear:both;height: 1px;"></div>
+	<div id="itemTitle" style="width:100px;">
+		<label title="{##@modulSelect::nocore_doctor_order_typeIDTitle##}">{##&modulSelect::nocore_doctor_order_typeIDTitle##}</label>
+	</div>
+	<div id="itemView">{##@modulSelect::x_nocore_doctor_order_typeID##}</div>
+	<div style="clear:both;height: 1px;"></div>
+	<div id="itemTitle" style="width:100px;">
+		<label title="{##@modulSelect::startTimeTitle##}">{##&modulSelect::startTimeTitle##}</label>
+	</div>
+	<div id="itemView">{##@modulSelect::x_startTime##}&nbsp;{##configShare::timeViewFormatTitle##}</div>
+	<div style="clear:both;height: 1px;"></div>
+	<div id="itemTitle" style="width:100px;">
+		<label title="{##@modulSelect::stopTimeTitle##}">{##&modulSelect::stopTimeTitle##}</label>
+	</div>
+	<div id="itemView">{##@modulSelect::x_stopTime##}&nbsp;{##configShare::timeViewFormatTitle##}</div>
+	<div style="clear:both;height: 1px;"></div>
+	<div id="itemTitle" style="width:100px;">
+		<label title="{##@modulSelect::barcodeStartTitle##}">{##&modulSelect::barcodeStartTitle##}</label>
+	</div>
+	<div id="itemView">{##@modulSelect::x_barcodeStart##}&nbsp;{##configShare::minTitle##}</div>
+	<div style="clear:both;height: 1px;"></div>
+	<div id="itemTitle" style="width:100px;">
+		<label title="{##@modulSelect::barcodeStopTitle##}">{##&modulSelect::barcodeStopTitle##}</label>
+	</div>
+	<div id="itemView">{##@modulSelect::x_barcodeStop##}&nbsp;{##configShare::minTitle##}</div>
+	<div style="clear:both;height: 1px;"></div>
+	<div id="itemTitle" style="width:100px;">
+		<label title="{##@modulSelect::doctorIsTitle##}">{##&modulSelect::doctorIsTitle##}</label>
+	</div>
+	<div id="itemView">{##@modulSelect::x_doctorIs##}</div>
+	<div style="clear:both;height: 1px;"></div>
+	<div id="itemTitle" style="width:100px;">
+		<label title="{##@modulSelect::nurseIsTitle##}">{##&modulSelect::nurseIsTitle##}</label>
+	</div>
+	<div id="itemView">{##@modulSelect::x_nurseIs##}</div>
+	<div style="clear:both;height: 1px;"></div>
+</div>
+##/viewForm##
+##listHeadForm##
+<div id="listHeader">
+	<{##modulSelect##}_x_core_localserverID>
+	<div id="itemView" style="width:90px;">{##@modulSelect::core_localserverIDTitle##}</div>
+	</{##modulSelect##}_x_core_localserverID>
+	<{##modulSelect##}_x_nocore_doctorID>
+	<div id="itemView" style="width:90px;">{##@modulSelect::nocore_doctorIDTitle##}</div>
+	</{##modulSelect##}_x_nocore_doctorID>
+	<div style="clear:both;"></div>
+	<{##modulSelect##}_x_nocore_doctor_order_dayID>
+	<div id="itemView" style="width:100px;">{##@modulSelect::nocore_doctor_order_dayIDTitle##}</div>
+	</{##modulSelect##}_x_nocore_doctor_order_dayID>
+	<{##modulSelect##}_x_nocore_doctor_order_typeID>
+	<div id="itemView" style="width:100px;">{##@modulSelect::nocore_doctor_order_typeIDTitle##}</div>
+	</{##modulSelect##}_x_nocore_doctor_order_typeID>
+	<div id="itemView" style="width:70px;">{##@modulSelect::startTimeTitle##}</div>
+	<div id="itemView" style="width:70px;">{##@modulSelect::stopTimeTitle##}</div>
+	<div id="itemView" style="width:70px;">{##@modulSelect::startTimeReserveTitle##}</div>
+	<div id="itemView" style="width:70px;">{##@modulSelect::stopTimeReserveTitle##}</div>
+	<{##modulSelect##}_x_insertWhen>
+	<div id="itemView" style="width:120px;">{##@modulSelect::insertWhenTitle##}</div>
+	</{##modulSelect##}_x_insertWhen>
+	<div style="clear:both;height: 1px;"></div>
+</div>
+##/listHeadForm##
+##listItemForm##
+<div id="listItem" class="{##@modulSelect::bgcolor##}">
+	<div style="float:left;">
+		<{##modulSelect##}_x_core_localserverID>
+		<div id="itemView" style="width:90px;">{##@modulSelect::x_core_localserver##}</div>
+		</{##modulSelect##}_x_core_localserverID>
+		<{##modulSelect##}_x_nocore_doctorID>
+		<div id="itemView" style="width:90px;">{##@modulSelect::x_nocore_doctor##}</div>
+		</{##modulSelect##}_x_nocore_doctorID>
+		<div style="clear:both;"></div>
+		<{##modulSelect##}_x_nocore_doctor_order_dayID>
+		<div id="itemView" style="width:100px;">{##@modulSelect::x_nocore_doctor_order_day##}</div>
+		</{##modulSelect##}_x_nocore_doctor_order_dayID>
+		<{##modulSelect##}_x_nocore_doctor_order_typeID>
+		<div id="itemView" style="width:100px;">{##@modulSelect::x_nocore_doctor_order_type##}</div>
+		</{##modulSelect##}_x_nocore_doctor_order_typeID>
+		<div id="itemView" style="width:70px;">{##@modulSelect::x_startTime##}</div>
+		<div id="itemView" style="width:70px;">{##@modulSelect::x_stopTime##}</div>
+		<div id="itemView" style="width:70px;">{##@modulSelect::x_startTimeReserve##}</div>
+		<div id="itemView" style="width:70px;">{##@modulSelect::x_stopTimeReserve##}</div>
+		<{##modulSelect##}_x_insertWhen>
+		<div id="itemView" style="width:120px;">{##@modulSelect::x_insertWhen##}</div>
+		</{##modulSelect##}_x_insertWhen>
+		<div style="clear:both;"></div>
+	</div>
+	<div style="float:right;">
+		<div class="{##@modulSelect::bgcolor##} itemViewRight">{##@modulSelect::x_submenu##}</div>
+		<div style="clear:both;"></div>
+	</div>
+	<div style="clear:both;"></div>
+</div>
+##/listItemForm##
+##listFilterForm##
+<form method="post" name="searchFilterform" action="index.php?modulAction=list">
+<div id="searchFilter">
+	<{##modulSelect##}_s_core_localserverID>
+	<div id="searchFilterTitle">
+		<label title="{##@modulSelect::core_localserverIDTitle##}">{##&modulSelect::core_localserverIDTitle##}</label><br>
+		<select style="width:120px;" id="s_core_localserverID" name="s_core_localserverID" onchange="this.form.submit();">
+			{##@modulSelect::s_core_localserverID##}
+		</select>
+	</div>
+	</{##modulSelect##}_s_core_localserverID>
+	<{##modulSelect##}_s_nocore_doctorID>
+	<div id="searchFilterTitle">
+		<label title="{##@modulSelect::nocore_doctorIDTitle##}">{##&modulSelect::nocore_doctorIDTitle##}</label><br>
+		<select style="width:120px;" id="s_nocore_doctorID" name="s_nocore_doctorID" onchange="this.form.submit();">
+			{##@modulSelect::s_nocore_doctorID##}
+		</select>
+	</div>
+	</{##modulSelect##}_s_nocore_doctorID>
+	<div id="searchFilterTitle">
+		<label title="{##@modulSelect::nocore_doctor_order_dayIDTitle##}">{##&modulSelect::nocore_doctor_order_dayIDTitle##}</label><br>
+		<select style="width:150px;" id="s_nocore_doctor_order_dayID" name="s_nocore_doctor_order_dayID" onchange="this.form.submit();">
+			{##@modulSelect::s_nocore_doctor_order_dayID##}
+		</select>
+	</div>
+	<div id="searchFilterTitle">
+		<label title="{##@modulSelect::nocore_doctor_order_typeIDTitle##}">{##&modulSelect::nocore_doctor_order_typeIDTitle##}</label><br>
+		<select style="width:150px;" id="s_nocore_doctor_order_typeID" name="s_nocore_doctor_order_typeID" onchange="this.form.submit();">
+			{##@modulSelect::s_nocore_doctor_order_typeID##}
+		</select>
+	</div>
+	<div style="clear:both;"></div>
+</div>
+</form>
+##/listFilterForm##

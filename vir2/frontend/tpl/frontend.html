@@ -1,0 +1,75 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html lang="hu">
+<HEAD>
+<title>{##systemName##}</title>
+<meta name="Description" content="">
+<meta name="Keywords" content="">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<meta http-equiv="content-language" content="hu">
+<meta name="language" content="hu">
+<link type="text/css" href="index.php?cssconvert=frontend&resolution=1" rel="stylesheet">
+<script type="text/javascript" src="../share/js/jquery-1.10.1.min.js"></script>
+<script type="text/javascript" src="../share/js/jquery-scroller-v1.src.js"></script> 
+<script type="text/javascript" src="../share/js/jquery.cycle.lite.js"></script>
+<script type="text/javascript" src="index.php?systemType=frontend&amp;jsconvert=frontend"></script>
+</HEAD>
+<BODY class="body">
+<div id="htmlPage">
+	<div id="contentBox">
+		<div id="marqueeTopBox">
+			<div class="horizontal_scroller">
+				<div class="scrollingtext" id="marqueeTopMessage">
+				{##marqueeTop##}
+				<script language="JavaScript" type="text/JavaScript">
+					setInterval(function(){getMarqueeTop()},{##marqueeBoxRefresh##}*1000);
+				</script>
+				</div>
+			</div>
+		</div>
+		<div id="contentTopBox">
+			<div id="bannerBox">
+				<div class="slideshow" id="bannerItem">
+					{##banner##}
+					<script language="JavaScript" type="text/JavaScript">
+						getBanner();
+						setInterval(function(){getBanner()},{##bannerBoxRefresh##}*1000);
+					</script>
+				</div>
+			</div>
+			<div id="bannerWaitingSeparate"></div>
+			<div id="waitingBox">
+				<div id="waitingList">
+				<script language="JavaScript" type="text/JavaScript">
+					getList();
+					setInterval(function(){getList()},{##waitingBoxRefresh##}*1000);
+				</script>
+				</div>
+				<div id="barcodeInput">
+					<input type="text" name="x_barcode" id="x_barcode" autofocus onchange="getBarcode()" />
+				</div>
+			</div>
+			<div style="clear:both;"></div>
+		</div>
+		<div style="clear:both;"></div>
+		<div id="barcodeMessage"></div>
+		<div id="patientMessage">
+			<script language="JavaScript" type="text/JavaScript">
+				setInterval(function(){getPatient()},{##patientViewRefresh##}*1000);
+			</script>
+		</div>
+		<div style="clear:both;"></div>
+		<div id="speedBox">{##runTime##}</div>
+		<div id="marqueeBox">
+			<div class="horizontal_scroller">
+				<div class="scrollingtext" id="marqueeBottomMessage">
+				{##marqueeBottom##}
+				<script language="JavaScript" type="text/JavaScript">
+					setInterval(function(){getMarqueeBottom()},{##marqueeBoxRefresh##}*1000);
+				</script>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+</body>
+</html>
