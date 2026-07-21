@@ -143,8 +143,10 @@ function loginService($config)
 		if (setConfigValue($config,"configShare","onlyView") != 1 )
 			{
 			$loginServiceHTML .= "<div id='loginBox'>";
+			$loginServiceHTML .= "<button title='".$config["configShare"]["homeTitle"]."' id='buttonTopHeight24' name='modulOperation' type='submit' value='home'><span class='glyphicon glyphicon-home ewIcon'></span></button>";
+
 			$loginServiceHTML .= "<div id='loginTextBox'>";
-			$loginServiceHTML .= "<span class='loginText'>".@$_SESSION[$config["configShare"]["whichSystemAndMode"] . "status_User"];
+			$loginServiceHTML .= "<span class='loginText'>&nbsp;".@$_SESSION[$config["configShare"]["whichSystemAndMode"] . "status_User"];
 			if (isset($_SESSION[$config["configShare"]["whichSystemAndMode"] . "status_nocore_sealNumber"]))
 				{
 				$loginServiceHTML .= "&nbsp - (".$_SESSION[$config["configShare"]["whichSystemAndMode"] . "status_nocore_sealNumber"].")";
@@ -155,12 +157,13 @@ function loginService($config)
 			if ($config["layoutMainHTML"]!="layoutmini")
 				{
 				$loginServiceHTML .= "<div id='topServiceButton'>";
-				$loginServiceHTML .= "<button title='".$config["configShare"]["myDataChangeTitle"]."' id='buttonTopHeight24' name='modulOperation' type='submit' value='item::mydata::core_users::".@$_SESSION[$config["configShare"]["whichSystemAndMode"]."status_UserID"]."::".$config["modulSelect"]."'>".$config["configShare"]["myDataChangeTitle"]."</button>";
+				
+				$loginServiceHTML .= "<button title='".$config["configShare"]["myDataChangeTitle"]."' id='buttonTopHeight24' name='modulOperation' type='submit' value='item::mydata::core_users::".@$_SESSION[$config["configShare"]["whichSystemAndMode"]."status_UserID"]."::".$config["modulSelect"]."'><span class='glyphicon glyphicon-user ewIcon'></span></button>";
 
-				$loginServiceHTML .= "<button title='".$config["configShare"]["passwordChangeTitle"]."' id='buttonTopHeight24' name='modulOperation' type='submit' value='item::passchange::core_users::".@$_SESSION[$config["configShare"]["whichSystemAndMode"]."status_UserID"]."::".$config["modulSelect"]."'>".$config["configShare"]["passwordChangeTitle"]."</button>";
+				$loginServiceHTML .= "<button title='".$config["configShare"]["passwordChangeTitle"]."' id='buttonTopHeight24' name='modulOperation' type='submit' value='item::passchange::core_users::".@$_SESSION[$config["configShare"]["whichSystemAndMode"]."status_UserID"]."::".$config["modulSelect"]."'><i class='fa fa-key ewIcon' aria-hidden='true'></i></button>";
 				if ($_SESSION[$config["configShare"]["whichSystemAndMode"] . "status_UserLevel"] != 1)
 					{
-					$loginServiceHTML .= "<button title='".$config["configShare"]["logoutTitle"]."' id='buttonTopHeight24' name='modulOperation' type='submit' value='simple::logout'>".$config["configShare"]["logoutTitle"]."</button>";
+					$loginServiceHTML .= "<button title='".$config["configShare"]["logoutTitle"]."' id='buttonTopHeight24' name='modulOperation' type='submit' value='simple::logout'><span class='glyphicon glyphicon-log-out ewIcon'></span></button>";
 					}
 				$loginServiceHTML .= "</div>";
 				}
@@ -617,7 +620,7 @@ function navigationNew($config,$p_modulMenu)
 			{
 			if ((!isset($config[$config["modulSelect"]]["noAdd"]) || !$config[$config["modulSelect"]]["noAdd"]) && (!isset($GLOBALS["treeAdmin"]) || !$GLOBALS["treeAdmin"]))
 				{
-				$config["sharedNavigationAdd"] .= "<button title='".$config["configShare"]["addTitle"]."' id='buttonHeight24' name='modulOperation' type='submit' value='item::add::".$config["modulSelect"]."::'>".$config["configShare"]["addTitle"]."</button>";
+				$config["sharedNavigationAdd"] .= "<button title='".$config["configShare"]["addTitle"]."' id='buttonHeight24' name='modulOperation' type='submit' value='item::add::".$config["modulSelect"]."::'><span data-caption='Add' class='glyphicon glyphicon-plus ewIcon' data-phrase='AddLink'></span></button>";
 				}
 			}
 		else

@@ -5,7 +5,7 @@
 #topHeaderBox {padding: 0;margin: 0;border: 0;font-size: 14px;text-decoration: none;}
 #topHeaderBox h1 {padding: 0;margin: 0;}
 #topHeaderBox {padding-left:10px;text-align:center;font-size: 14px;text-decoration: none;float;center;font-weight: bold;border-radius:10px;border-style:solid;border-width:2px;border-color:#eee;padding:4px;background:{##actualBgColor##};margin-top:5px;}
-#logoBox {float:left;font-size: 24px;text-decoration: none;color:#FFFFFF;font-weight:normal;margin-left:5px;}
+#logoBox {float:left;font-size: 32px;text-decoration: none;color:#FFFFFF;font-weight:normal;margin-left:5px;}
 #loginBox {float:left;text-align:left;font-size: 14px;text-decoration: none;}
 #loginTextBox {padding-top:6px;float:left;}
 .loginText {text-align:left;color:{##actualFgColor##};font-weight: bold;}
@@ -50,7 +50,7 @@ a.topMenuTextActual:hover {text-decoration: none;background-color:#FFFFFF;paddin
 
 #navigationBox {width:55%;float:left;text-align:right;}
 #navigationAddBox {float:right;}
-.navigationText {margin-left:10px;padding-top: 10px;text-align:left;font-size: 12px;text-decoration: none;color:#000000;vertical-align:top;line-height:24px;}
+.navigationText {margin-left:10px;padding-top: 10px;text-align:left;font-size: 12px;text-decoration: none;color:#000000;vertical-align:top;line-height:32px;}
 .navigationTextError {padding:5px;font-size: 14px;text-decoration: none;font-weight:bold;color:red;float:right;border:2px solid red;background-color:#FFFFFF;border-radius:5px;}
 #errorMessageText {text-align:center;font-size: 12px;text-decoration: none;color:red;padding-top:5px;}
 
@@ -65,7 +65,7 @@ a.topMenuTextActual:hover {text-decoration: none;background-color:#FFFFFF;paddin
 .empty {background: url('themes/edgablack/img/button/empty.png');background-position:center;width: 36px;height: 36px;border: 0;cursor: pointer;text-align: center;font-size: 14px;text-decoration: none;color:#FFFFFF;font-weight:bold;}
 .back {background: url('themes/edgablack/img/button/cancel.png');background-position:center;width: 36px;height: 36px;border: 0;cursor: pointer;vertical-align:top;}
 .emptydark {background: url('themes/edgablack/img/button/emptydark.png');background-position:center;width: 36px;height: 36px;border: 0;cursor: pointer;text-align: center;font-size: 14px;text-decoration: none;color:#FFFFFF;font-weight:bold;}
-.buttonBox { margin: .05em 0 .05em 0;vertical-align:middle;height:24px;width:24px;}
+.buttonBox { margin: .05em 0 .05em 0;vertical-align:middle;height:32px;width:32px;}
 
 #contentFrame {width:98%;top:5px;text-align:center;background-color:#ccc;border:solid 1px #bbb;margin:auto;margin-top:5px;border-radius:5px;}
 #contentFrameMini {width:440px;top:5px;text-align:center;border:solid 1px #FFFFFF;margin:auto;margin-top:5px;border-radius:5px;min-height:30px}
@@ -100,11 +100,11 @@ LINE-HEIGHT: 1.4em;
 .listHeaderColor {background-color: #BBBBBB;}
 .listLineColor1 {background-color: #DDDDDD;min-height:28px;}
 .listLineColor1:hover {background-color:#cccccc !important;color:#000000 !important;min-height:28px;}
-.listLineColor1 .itemViewRight {float:right;text-align:right;margin-right:5px;font-size: 11px;text-decoration: none;background-color:#cccccc;display:none;min-height:28px;}
+.listLineColor1 .itemViewRight {float:right;text-align:right;margin-right:5px;font-size: 11px;text-decoration: none;background-color:#cccccc;display:block;min-height:28px;}
 .listLineColor1:hover .itemViewRight {float:right;text-align:right;margin-right:5px;font-size: 11px;text-decoration: none;background-color:#cccccc;display:inline;vertical-align:top;min-height:28px;}
 .listLineColor2 {background-color: #EEEEEE;min-height:28px;}
 .listLineColor2:hover {background-color:#cccccc !important;color:#000000 !important;min-height:28px;}
-.listLineColor2 .itemViewRight {float:right;text-align:right;margin-right:5px;font-size: 11px;text-decoration: none;background-color:#cccccc;display:none;min-height:28px;}
+.listLineColor2 .itemViewRight {float:right;text-align:right;margin-right:5px;font-size: 11px;text-decoration: none;background-color:#cccccc;display:block;min-height:28px;}
 .listLineColor2:hover .itemViewRight {float:right;text-align:right;margin-right:5px;font-size: 11px;text-decoration: none;background-color:#cccccc;display:inline;vertical-align:top;min-height:28px;}
 .titleColor {background-color: #DDDDDD;}
 .fieldColor {background-color: #F3F2eb;}
@@ -125,40 +125,40 @@ form {padding:0;margin:0;}
 #addFrame {flost:center;position:absolute; margin-left:20px; margin-top:5px; text-align:center;background-color:#cccccc;border:solid 1px;border-radius:5px;}
 #popupCode {width:800px;text-align:center;background-color:#F5F5F5;border:solid 1px;border-radius:5px;}
 #runtime {margin-right:10px;font-size:11px;color:{##actualFgColor##};float:right;}
-#button24x24       {float:left;font-size:20px;font-weight:bold;border-radius:6px;height:24px;width:24px;background:{##actualBgColor##};color:{##actualFgColor##};line-height:24px;text-align:center;}
-#button24x24:hover {float:left;font-size:20px;font-weight:bold;border-radius:6px;height:24px;width:24px;background:#BF1212;color:#FFFFFF;line-height:24px;text-align:center;}
-.button24x24       {font-size:20px;font-weight:bold;border-radius:6px;height:24px;width:24px;background:{##actualBgColor##};color:{##actualFgColor##};line-height:24px;text-align:center;}
-.button24x24:hover {font-size:20px;font-weight:bold;border-radius:6px;height:24px;width:24px;background:#BF1212;color:#FFFFFF;line-height:24px;text-align:center;}
+#button24x24       {float:left;font-size:20px;font-weight:bold;border-radius:6px;height:32px;width:32px;background:{##actualBgColor##};color:{##actualFgColor##};line-height:32px;text-align:center;}
+#button24x24:hover {float:left;font-size:20px;font-weight:bold;border-radius:6px;height:32px;width:32px;background:#BF1212;color:#FFFFFF;line-height:32px;text-align:center;}
+.button24x24       {font-size:20px;font-weight:bold;border-radius:6px;height:32px;width:32px;background:{##actualBgColor##};color:{##actualFgColor##};line-height:32px;text-align:center;}
+.button24x24:hover {font-size:20px;font-weight:bold;border-radius:6px;height:32px;width:32px;background:#BF1212;color:#FFFFFF;line-height:32px;text-align:center;}
 #button24x24Text       {font-size:20px;font-weight:bold;color:{##actualFgColor##};}
 #button24x24Text:hover {font-size:20px;font-weight:bold;background:#BF1212;color:#FFFFFF;}
 
 .nosortButton16x16 {background-size: 16px 16px;background-color:transparent;border:none;height:16px;width:16px;}
 .nosortButton16x16:hover {background-size: 16px 16px;background-color:#BF1212;border:none;height:16px;width:16px;border-radius:6px;}
 
-.button24x24Box {background-size: 24px 24px;background-color:transparent;border:none;height:24px;width:24px;border-radius:6px;background-color:{##actualBgColor##};margin-right:1px;color:{##actualBgColor##};font-weight:bold;font-size:20px;}
-.button24x24Box:hover {background-size: 24px 24px;background-color:#BF1212;border:none;height:24px;width:24px;border-radius:6px;background-color:#BF1212;margin-right:1px;color:#cccccc;font-weight:bold;font-size:20px;}
-.button24x24YesBox{background-size: 24px 24px;background-color:transparent;border:2px solid green;height:24px;width:24px;border-radius:6px;margin-right:1px;}
-.button24x24YesBox:hover {background-size: 24px 24px;background-color:#BF1212;border:2px solid green;height:24px;width:24px;border-radius:6px;background-color:#ffffff;margin-right:1px;}
-.button24x24NoBox{background-size: 24px 24px;background-color:transparent;border:2px solid red;height:24px;width:24px;border-radius:6px;margin-right:1px;}
-.button24x24NoBox:hover {background-size: 24px 24px;background-color:#BF1212;border:2px solid red;height:24px;width:24px;border-radius:6px;background-color:#ffffff;margin-right:1px;}
+.button24x24Box {background-size: 32px 32px;background-color:transparent;border:none;height:32px;width:32px;border-radius:6px;background-color:{##actualBgColor##};margin-right:1px;color:{##actualBgColor##};font-weight:bold;font-size:20px;}
+.button24x24Box:hover {background-size: 32px 32px;background-color:#BF1212;border:none;height:32px;width:32px;border-radius:6px;background-color:#BF1212;margin-right:1px;color:#cccccc;font-weight:bold;font-size:20px;}
+.button24x24YesBox{background-size: 32px 32px;background-color:transparent;border:2px solid green;height:32px;width:32px;border-radius:6px;margin-right:1px;}
+.button24x24YesBox:hover {background-size: 32px 32px;background-color:#BF1212;border:2px solid green;height:32px;width:32px;border-radius:6px;background-color:#ffffff;margin-right:1px;}
+.button24x24NoBox{background-size: 32px 32px;background-color:transparent;border:2px solid red;height:32px;width:32px;border-radius:6px;margin-right:1px;}
+.button24x24NoBox:hover {background-size: 32px 32px;background-color:#BF1212;border:2px solid red;height:32px;width:32px;border-radius:6px;background-color:#ffffff;margin-right:1px;}
 .button20x20{background-size: 20px 20px;background-color:transparent;border:2px solid red;height:20px;width:20px;border-radius:6px;margin-right:1px;float:right;color:#FF0000;font-weight:bold;}
 .button20x20:hover {background-size: 20px 20px;background-color:#BF1212;border:2px solid red;height:20px;width:20px;border-radius:6px;background-color:#ffffff;margin-right:1px;}
-#buttonHeight24       {float:left;border:2px solid #FFFFFF;border-radius:6px;border-style:none;height:24px;min-width:24px;background:{##actualBgColor##};color:{##actualFgColor##};line-height:24px;text-align:center;padding-left:4px;padding-right:4px;margin-right:1px;}
-#buttonHeight24:hover {float:left;border:2px solid #FFFFFF;border-radius:6px;border-style:none;height:24px;min-width:24px;background:#BF1212;color:#ffffff;line-height:24px;text-align:center;padding-left:4px;padding-right:4px;margin-right:1px;}
-#buttonGreenHeight24       {float:left;border:2px solid #FFFFFF;border-radius:6px;border-style:none;height:20px;min-width:24px;background:#008000;color:{##actualFgColor##};line-height:24px;text-align:center;padding-left:4px;padding-right:4px;margin-right:1px;min-width:100%;}
-#buttonGreenHeight24:hover {float:left;border:2px solid #FFFFFF;border-radius:6px;border-style:none;height:20px;min-width:24px;background:#00ff00;color:#000000;line-height:24px;text-align:center;padding-left:4px;padding-right:4px;margin-right:1px;min-width:100%;}
-#buttonReserveHeight24       {float:left;border:2px solid #FFFFFF;border-radius:6px;border-style:none;height:20px;min-width:24px;background:#ffa500;color:#FFFFFF;line-height:24px;text-align:center;padding-left:4px;padding-right:4px;margin-right:1px;min-width:100%;}
-#buttonReserveHeight24:hover {float:left;border:2px solid #FFFFFF;border-radius:6px;border-style:none;height:20px;min-width:24px;background:#ffff00;color:#000000;line-height:24px;text-align:center;padding-left:4px;padding-right:4px;margin-right:1px;min-width:100%;}
-//#buttonNoFloatHeight24{border:none;border-radius:6px;border-style:none;height:24px;min-width:24px;background:{##actualFgColor##};color:#FFFFFF;line-height:24px;text-align:center;padding-left:4px;padding-right:4px;text-decoration:none;}
-//#buttonNoFloatHeight24:hover {border:none;border-radius:6px;border-style:none;height:24px;min-width:24px;background:#BF1212;color:#FFFFFF;line-height:24px;text-align:center;padding-left:4px;padding-right:4px;text-decoration:none;}
-#subMenuHeight24{border:none;border-radius:6px;border-style:none;height:24px;min-width:24px;background:{##actualBgColor##};color:{##actualFgColor##};line-height:24px;text-align:center;padding-left:4px;padding-right:4px;text-decoration:none;}
-#subMenuHeight24:hover {border:none;border-radius:6px;border-style:none;height:24px;min-width:24px;background:#BF1212;color:#FFFFFF;line-height:24px;text-align:center;padding-left:4px;padding-right:4px;text-decoration:none;}
-#footerMenuHeight24{border:none;border-radius:6px;border-style:none;height:24px;min-width:24px;background:{##actualBgColor##};color:{##actualFgColor##};line-height:24px;text-align:center;padding-left:4px;padding-right:4px;text-decoration:none;}
-#footerMenuHeight24:hover {border:none;border-radius:6px;border-style:none;height:24px;min-width:24px;background:#BF1212;color:#FFFFFF;line-height:24px;text-align:center;padding-left:4px;padding-right:4px;text-decoration:none;}
-#buttonYesNo24{border:2px solid {##actualBgColor##};border-radius:6px;height:24px;min-width:24px;background:#ffffff;color:{##actualFgColor##};line-height:24px;text-align:center;padding-left:4px;padding-right:4px;text-decoration:none;}
-#buttonYesNo24:hover {border:2px solid {##actualBgColor##};border-radius:6px;height:24px;min-width:24px;background:#cccccc;color:#FFFFFF;line-height:24px;text-align:center;padding-left:4px;padding-right:4px;text-decoration:none;}
-#buttonTopHeight24{float:left;border:1px solid #FFFFFF;border-radius:6px;border-style:solid;height:24px;min-width:24px;background:#cccccc;color:#000000;text-align:center;padding-left:4px;padding-right:4px;text-decoration:none;margin-right:1px;}
-#buttonTopHeight24:hover {float:left;border:1px solid #FFFFFF;border-radius:6px;border-style:solid;height:24px;min-width:24px;background:#f5f5f5;color:#000000;text-align:center;padding-left:4px;padding-right:4px;text-decoration:none;margin-right:1px;}
+#buttonHeight24       {float:left;border:2px solid #FFFFFF;border-radius:6px;border-style:none;height:32px;min-width:32px;background:{##actualBgColor##};color:{##actualFgColor##};line-height:32px;text-align:center;padding-left:4px;padding-right:4px;margin-right:1px;}
+#buttonHeight24:hover {float:left;border:2px solid #FFFFFF;border-radius:6px;border-style:none;height:32px;min-width:32px;background:#BF1212;color:#ffffff;line-height:32px;text-align:center;padding-left:4px;padding-right:4px;margin-right:1px;}
+#buttonGreenHeight24       {float:left;border:2px solid #FFFFFF;border-radius:6px;border-style:none;height:20px;min-width:32px;background:#008000;color:{##actualFgColor##};line-height:32px;text-align:center;padding-left:4px;padding-right:4px;margin-right:1px;min-width:100%;}
+#buttonGreenHeight24:hover {float:left;border:2px solid #FFFFFF;border-radius:6px;border-style:none;height:20px;min-width:32px;background:#00ff00;color:#000000;line-height:32px;text-align:center;padding-left:4px;padding-right:4px;margin-right:1px;min-width:100%;}
+#buttonReserveHeight24       {float:left;border:2px solid #FFFFFF;border-radius:6px;border-style:none;height:20px;min-width:32px;background:#ffa500;color:#FFFFFF;line-height:32px;text-align:center;padding-left:4px;padding-right:4px;margin-right:1px;min-width:100%;}
+#buttonReserveHeight24:hover {float:left;border:2px solid #FFFFFF;border-radius:6px;border-style:none;height:20px;min-width:32px;background:#ffff00;color:#000000;line-height:32px;text-align:center;padding-left:4px;padding-right:4px;margin-right:1px;min-width:100%;}
+//#buttonNoFloatHeight24{border:none;border-radius:6px;border-style:none;height:32px;min-width:32px;background:{##actualFgColor##};color:#FFFFFF;line-height:32px;text-align:center;padding-left:4px;padding-right:4px;text-decoration:none;}
+//#buttonNoFloatHeight24:hover {border:none;border-radius:6px;border-style:none;height:32px;min-width:32px;background:#BF1212;color:#FFFFFF;line-height:32px;text-align:center;padding-left:4px;padding-right:4px;text-decoration:none;}
+#subMenuHeight24{border:none;border-radius:6px;border-style:none;height:32px;min-width:32px;background:{##actualBgColor##};color:{##actualFgColor##};line-height:32px;text-align:center;padding-left:4px;padding-right:4px;text-decoration:none;}
+#subMenuHeight24:hover {border:none;border-radius:6px;border-style:none;height:32px;min-width:32px;background:#BF1212;color:#FFFFFF;line-height:32px;text-align:center;padding-left:4px;padding-right:4px;text-decoration:none;}
+#footerMenuHeight24{border:none;border-radius:6px;border-style:none;height:32px;min-width:32px;background:{##actualBgColor##};color:{##actualFgColor##};line-height:32px;text-align:center;padding-left:4px;padding-right:4px;text-decoration:none;}
+#footerMenuHeight24:hover {border:none;border-radius:6px;border-style:none;height:32px;min-width:32px;background:#BF1212;color:#FFFFFF;line-height:32px;text-align:center;padding-left:4px;padding-right:4px;text-decoration:none;}
+#buttonYesNo24{border:2px solid {##actualBgColor##};border-radius:6px;height:32px;min-width:32px;background:#ffffff;color:{##actualFgColor##};line-height:32px;text-align:center;padding-left:4px;padding-right:4px;text-decoration:none;}
+#buttonYesNo24:hover {border:2px solid {##actualBgColor##};border-radius:6px;height:32px;min-width:32px;background:#cccccc;color:#FFFFFF;line-height:32px;text-align:center;padding-left:4px;padding-right:4px;text-decoration:none;}
+#buttonTopHeight24{float:left;border:1px solid #FFFFFF;border-radius:6px;border-style:solid;height:32px;min-width:32px;background:#cccccc;color:#000000;text-align:center;padding-left:4px;padding-right:4px;text-decoration:none;margin-right:1px;}
+#buttonTopHeight24:hover {float:left;border:1px solid #FFFFFF;border-radius:6px;border-style:solid;height:32px;min-width:32px;background:#f5f5f5;color:#000000;text-align:center;padding-left:4px;padding-right:4px;text-decoration:none;margin-right:1px;}
 #contentFrameMiniHead {float:left;color:#000000;margin-left:5px;border-bottom:2px solid {##actualBgColor##};font-weight:bold;padding:4px;_4px;}
 #contentLeft {float:left;width:450px;}
 #contentRight {float:left;min-width:640px;padding-left:5px;}
@@ -166,7 +166,7 @@ form {padding:0;margin:0;}
 a {text-decoration:none;}
 a:hover {text-decoration:none;}
 .buttonText {margin-top:-2px;font-weight:bold;font-size:12px;width:100%;}
-#deleteReallyBox {color:red;font-size:24px;border-radius:10px;border-style:solid;border-width:2px;border-color:red;width:200px;margin-left:auto;margin-right:auto;}
+#deleteReallyBox {color:red;font-size:32px;border-radius:10px;border-style:solid;border-width:2px;border-color:red;width:200px;margin-left:auto;margin-right:auto;}
 
 #calendarBox {border-radius:10px;border-style:solid;border-width:2px;border-color:#bbbbbb;background-color:#cccccc;padding:5px;margin-top:5px;margin-bottom:5px;min-width:390px;margin-left:5px;}
 #calendarBoxAction {font-weight:bold;text-align:left;margin-left:5px;}
@@ -187,8 +187,8 @@ a:hover {text-decoration:none;}
 #calendarWeekWhenTime {float:left;margin-left:5px;margin-right:5px;font-size:10px;padding-top:5px;width:90%}
 #calendarReserveWhenTime {margin-left:50px;margin-right:5px;font-size:10px;padding-top:5px;}
 #calendarReserveWeekWhenTime {margin-right:5px;font-size:10px;width:90%;}
-#calendarButtonHeight24       {border:2px solid #FFFFFF;border-radius:6px;border-style:none;height:24px;min-width:24px;background:{##actualBgColor##};color:{##actualFgColor##};line-height:24px;text-align:center;padding-left:4px;padding-right:4px;margin-right:1px;}
-#calendarButtonHeight24:hover {border:2px solid #FFFFFF;border-radius:6px;border-style:none;height:24px;min-width:24px;background:#BF1212;color:#ffffff;line-height:24px;text-align:center;padding-left:4px;padding-right:4px;margin-right:1px;}
-#calendarButtonRightHeight24       {float:right;border:2px solid #FFFFFF;border-radius:6px;border-style:none;height:24px;min-width:24px;background:{##actualBgColor##};color:{##actualFgColor##};line-height:24px;text-align:center;padding-left:4px;padding-right:4px;margin-right:1px;}
-#calendarButtonRightHeight24:hover {float:right;border:2px solid #FFFFFF;border-radius:6px;border-style:none;height:24px;min-width:24px;background:#BF1212;color:#ffffff;line-height:24px;text-align:center;padding-left:4px;padding-right:4px;margin-right:1px;}
+#calendarButtonHeight24       {border:2px solid #FFFFFF;border-radius:6px;border-style:none;height:32px;min-width:32px;background:{##actualBgColor##};color:{##actualFgColor##};line-height:32px;text-align:center;padding-left:4px;padding-right:4px;margin-right:1px;}
+#calendarButtonHeight24:hover {border:2px solid #FFFFFF;border-radius:6px;border-style:none;height:32px;min-width:32px;background:#BF1212;color:#ffffff;line-height:32px;text-align:center;padding-left:4px;padding-right:4px;margin-right:1px;}
+#calendarButtonRightHeight24       {float:right;border:2px solid #FFFFFF;border-radius:6px;border-style:none;height:32px;min-width:32px;background:{##actualBgColor##};color:{##actualFgColor##};line-height:32px;text-align:center;padding-left:4px;padding-right:4px;margin-right:1px;}
+#calendarButtonRightHeight24:hover {float:right;border:2px solid #FFFFFF;border-radius:6px;border-style:none;height:32px;min-width:32px;background:#BF1212;color:#ffffff;line-height:32px;text-align:center;padding-left:4px;padding-right:4px;margin-right:1px;}
 .glyphicon-trash{display:inline-block}
